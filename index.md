@@ -6,7 +6,7 @@ hero:
   name: "mzkbot"
   text: "多功能的世界计划\nQQ BOT"
   image:
-    src: /img.png
+    src: /image/img.png
     alt: 背景图
   actions:
     - theme: brand
