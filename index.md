@@ -6,7 +6,7 @@ hero:
   name: "mzkbot"
   text: "多功能的世界计划\nQQ BOT"
   image:
-    src: /image/img.png
+    src: https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp
     alt: 背景图
   actions:
     - theme: brand
