@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "MIZUKI BOT",
   description: "MIZUKI BOT",
-  base: "/",
+  base: "/mzkbot_web/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
