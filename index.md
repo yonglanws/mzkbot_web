@@ -11,10 +11,13 @@ hero:
   actions:
     - theme: brand
       text: 如何使用
-      link: /how2use
-    - theme: alt
-      text: 指令文档
       link: /help
+    - theme: alt
+      text: 使用规范
+      link: /guize
+    - theme: alt
+      text: 交流群
+      link: /how2use
 
 features:
   - title: 交流互动💬

@@ -2,6 +2,16 @@
 
 欢迎使用 mzkbot！以下是详细的功能指令指南。
 
+## 💬 如何将BOT拉到你的群里/私聊使用BOT
+
+请加入此群聊私聊联系群主，说明来意后请留下群号/QQ号，BOT主会给你加
+
+> 这样做的原因是为了分流，防止一个号加太多好友造成风控
+
+<div align="center">
+  <img src="/image/group.jpg" alt="BOT官方交流群二维码" width="70%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+</div>
+
 ## 💬 基础对话
 
 - **指令**：`@mzkbot` 后接内容即可进行对话
