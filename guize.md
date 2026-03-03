@@ -58,14 +58,14 @@
     <h3 style="color: #f39c12; margin-bottom: 15px; display: flex; align-items: center;">
       <span style="margin-right: 10px; font-size: 1.3rem;">⚠️</span> 3. 不要禁言BOT
     </h3>
-    <p style="color: #8a6d3b; line-height: 1.6;">禁言BOT将导致其无法正常工作，影响群内体验。</p>
+    <p style="color: #8a6d3b; line-height: 1.6;">禁言BOT可能会导致腾讯风控</p>
   </div>
   
   <div style="background: #fffef0; border-left: 4px solid #f39c12; border-radius: 8px; padding: 25px; box-shadow: 0 4px 10px rgba(243, 156, 18, 0.1);">
     <h3 style="color: #f39c12; margin-bottom: 15px; display: flex; align-items: center;">
       <span style="margin-right: 10px; font-size: 1.3rem;">⚠️</span> 4. 不要主动踢出BOT
     </h3>
-    <p style="color: #8a6d3b; line-height: 1.6;">请通过联系BOT主手动退群，而非直接踢出BOT。</p>
+    <p style="color: #8a6d3b; line-height: 1.6;">可能会导致腾讯风控，不着急的话请通过联系BOT主手动退群，而非直接踢出BOT。</p>
   </div>
 </div>
 

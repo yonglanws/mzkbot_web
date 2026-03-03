@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r,ai as o}from"./chunks/framework.DSAV_C12.js";const b=JSON.parse('{"title":"开发者&鸣谢","description":"","frontmatter":{},"headers":[],"relativePath":"thank.md","filePath":"thank.md"}'),i={name:"thank.md"};function n(h,a,s,l,p,c){return e(),r("div",null,[...a[0]||(a[0]=[o("",11)])])}const m=t(i,[["render",n]]);export{b as __pageData,m as default};
