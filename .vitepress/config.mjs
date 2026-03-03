@@ -10,8 +10,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '指令帮助', link: '/help' },
-      { text: '在线状态', link: '/status' }
+      { text: '使用帮助', link: '/help' },
+      { text: '交流群', link: '/how2use' }
 
     ],
     footer:{
@@ -21,7 +21,6 @@ export default defineConfig({
       {
         text: '使用指南',
         items: [
-          { text: '如何使用', link: '/how2use' },
           { text: '指令帮助', link: '/help' },
           { text: '使用BOT的规范', link: '/guize' }
         ]
@@ -30,6 +29,7 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '开发者&鸣谢', link: '/thank' },
+          { text: '交流群', link: '/how2use' },
           { text: '赞助', link: '/money' }
         ]
       }
