@@ -45,8 +45,9 @@
 - **普通猜歌**：`@mzkbot pjsk猜歌`
 - **2倍速猜歌**：`@mzkbot pjsk猜歌1`
 - 以此类推...
+- **排行榜**：`@mzkbot 本地猜歌排行榜`
 
-> ⚠️ **注意**：此功能和SakuraBOT中的 **PJSK听歌识曲** 并不互通
+> ⚠️ **注意**：此功能和SakuraBOT中的 **PJSK听歌识曲** 并不互通，我更推荐玩这个
 
 <div align="center">
   <img src="/image/pjskgs.png" alt="猜歌演示" width="45%" style="margin: 5px; border-radius: 8px;"/>
