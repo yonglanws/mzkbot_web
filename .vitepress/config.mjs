@@ -28,9 +28,10 @@ export default defineConfig({
         ]
       },
       {
-        text: '关于',
+        text: '其它',
         items: [
-          { text: '开发者&鸣谢', link: '/thank' },
+          { text: '关于', link: '/thank' },
+          { text: '神人榜', link: '/shen' },
           { text: '交流群', link: '/how2use' },
           { text: '赞助', link: '/money' }
         ]
