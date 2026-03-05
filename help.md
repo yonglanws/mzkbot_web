@@ -6,7 +6,10 @@
 
 请加入此群聊私聊联系群主，说明来意后请留下群号/QQ号，BOT主会给你加
 
-> 这样做的原因是为了分流，防止一个号加太多好友造成风控
+这样做的原因是为了分流，防止一个号加太多好友造成风控
+
+> ⚠️ **注意**：mzk不会进入与PJSK无关的群聊
+
 
 <div align="center">
   <img src="/image/group.jpg" alt="BOT官方交流群二维码" width="70%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
@@ -16,7 +19,7 @@
 
 - **指令**：`@mzkbot` 后接内容即可进行对话
   - 示例：`@mzkbot 你好`
-- **当前人格**：`晓山瑞希` (未来将开放人格切换功能)
+- **当前人格**：`晓山瑞希` (未来将在私聊中开放人格切换功能)
 
 > ⚠️ **注意**：在使用高峰期，对话功能可能会出现较为严重的延迟，请耐心等待
 
@@ -27,8 +30,9 @@
 
 ## 📅 每日签到
 
-- **指令**：`@mzkbot 签到` 或直接发送 `签到`
-
+- **指令**：`@mzkbot 签到` 
+> 后续会完善更多功能
+>
 > ⚠️ **注意**：高峰期可能出现延迟，请耐心等待。
 
 <div align="center">
@@ -37,34 +41,39 @@
 
 ## 🎵 娱乐互动
 
-### 🎶 世界计划猜歌 (PJSK)
+### 🎶 PJSK世界计划猜歌
 - **普通猜歌**：`@mzkbot pjsk猜歌`
 - **2倍速猜歌**：`@mzkbot pjsk猜歌1`
 - 以此类推...
 
+> ⚠️ **注意**：此功能和SakuraBOT中的 **PJSK听歌识曲** 并不互通
+
 <div align="center">
   <img src="/image/pjskgs.png" alt="猜歌演示" width="45%" style="margin: 5px; border-radius: 8px;"/>
-  <img src="/image/gshelp.png" alt="猜歌帮助" width="45%" style="margin: 5px; border-radius: 8px;"/>
+  <img src="/image/gshelp.png" alt="猜歌帮助" width="60%" style="margin: 5px; border-radius: 8px;"/>
 </div>
 
 ### 🎧 网易云点歌
 - **标准点歌**：`@mzkbot 点歌 歌名`
-- **自然语言点歌**：直接描述你想听的歌（如“我想听胃弱的...”）
+- **自然语言点歌**：`@mzkbot 直接描述你想听的歌` 如“我想听胃弱的...”，“r-906的歌超好听！mzk能给我推荐几首吗”
 
 <div align="center">
   <img src="/image/song1.png" alt="点歌演示1" width="45%" style="margin: 5px; border-radius: 8px;"/>
   <img src="/image/song2.png" alt="点歌演示2" width="55%" style="margin: 5px; border-radius: 8px;"/>
 </div>
 
-### 👍 点赞
-- **指令**：`@mzkbot 赞我` 或直接发送 `赞我`
+### 👍 QQ点赞
+- **赞自己**：`@mzkbot 赞我` 或直接发送 `赞我`
+- **赞他人(可以同时@多个人)**：`@mzkbot 赞@XXX` 或直接发送 `赞@XXX`
+- **订阅点赞**：`@mzkbot 订阅点赞` 订阅后bot每天自动为用户点赞
+
 >📌 注意:非好友每天只能点50人，每人50个赞。若接收不到点赞可能是你没加bot好友，而bot今日给陌生人点赞量也已到达上限
 
 <div align="center">
   <img src="/image/zan.png" alt="赞我功能" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
 </div>
 
-### 🗣️ 说话 (⚠️ 即将弃用)
+### 🗣️ 说话 (⚠️ 此功能即将弃用)
 - **用法**：`@mzkbot 说话 [内容]`
 - **限制**：
   - 仅支持中文。
@@ -80,6 +89,25 @@
 
 <div align="center">
   <img src="/image/meme.png" alt="表情包功能" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
+</div>
+
+## 👌 其他功能
+
+### 🎞️ 流媒体解析
+- 目前支持B站，小红书，小黑盒，抖音，快手，微博，推特(可能会被墙)
+<div align="center">
+  <img src="/image/video.jpg" alt="表情包功能" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
+</div>
+
+### 👾 入群/退群提示
+<div align="center">
+  <img src="/image/hy.jpg" alt="表情包功能" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
+</div>
+
+### 🖥️ 服务器状态监控
+> 我也不知道有什么用(？)
+<div align="center">
+  <img src="/image/status.jpg" alt="表情包功能" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
 </div>
 
 ## 🌸 SakuraBOT 专项功能 (Project Sekai)
