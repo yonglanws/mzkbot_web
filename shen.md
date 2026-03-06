@@ -16,11 +16,11 @@
 </video>
 
 <div align="center">
-  <img src="/image/zxt/8.jpg" alt="神人" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
+  <img src="/image/zxt/7.jpg" alt="神人" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
 </div>
 
 <div align="center">
-  <img src="/image/zxt/7.jpg" alt="神人" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
+  <img src="/image/zxt/8.jpg" alt="神人" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
 </div>
 
 
