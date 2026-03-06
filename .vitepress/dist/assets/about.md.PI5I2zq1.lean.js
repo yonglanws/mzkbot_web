@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,ak as o}from"./chunks/framework.D2SKCb-o.js";const c=JSON.parse('{"title":"关于","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),i={name:"about.md"};function h(l,a,n,s,d,b){return t(),r("div",null,[...a[0]||(a[0]=[o("",17)])])}const m=e(i,[["render",h]]);export{c as __pageData,m as default};

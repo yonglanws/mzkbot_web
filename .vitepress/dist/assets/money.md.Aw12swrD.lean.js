@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as o,ak as r,ay as n}from"./chunks/framework.D2SKCb-o.js";const g=JSON.parse('{"title":"赞助 ❤","description":"","frontmatter":{},"headers":[],"relativePath":"money.md","filePath":"money.md"}'),s={name:"money.md"};function i(l,t,_,c,d,m){return e(),o("div",null,[...t[0]||(t[0]=[r("",7)])])}const h=a(s,[["render",i]]);export{g as __pageData,h as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as r,c as t,ai as o}from"./chunks/framework.DSAV_C12.js";const _=JSON.parse('{"title":"使用BOT的规则","description":"","frontmatter":{},"headers":[],"relativePath":"guize.md","filePath":"guize.md"}'),i={name:"guize.md"};function h(l,a,n,b,d,s){return r(),t("div",null,[...a[0]||(a[0]=[o("",13)])])}const T=e(i,[["render",h]]);export{_ as __pageData,T as default};
