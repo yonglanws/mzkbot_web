@@ -4,7 +4,6 @@
 
 ## ~~💬 如何将BOT拉到你的群里/私聊使用BOT~~
 > 风控严重，BOT暂时**不允许**拉群
-
 请加入此群聊私聊联系群主，说明来意后请留下群号/QQ号，BOT主会给你加
 
 这样做的原因是为了分流，防止一个号加太多好友造成风控
@@ -42,7 +41,7 @@
 
 ## 🎵 娱乐互动
 
-### 🎶 PJSK世界计划猜歌
+### 🎶 PJSK猜歌
 - **普通猜歌**：`@mzkbot pjsk猜歌`
 - **2倍速猜歌**：`@mzkbot pjsk猜歌1`
 - 以此类推...
@@ -53,6 +52,18 @@
 <div align="center">
   <img src="/image/pjskgs.png" alt="猜歌演示" width="45%" style="margin: 5px; border-radius: 8px;"/>
   <img src="/image/gshelp.png" alt="猜歌帮助" width="60%" style="margin: 5px; border-radius: 8px;"/>
+</div>
+
+### 🎟️ PJSK猜卡面
+- **猜卡面**：`@mzkbot pjsk猜卡面`
+- **分数**：`@mzkbot 猜卡面分数`
+- **排行榜**：`@mzkbot 猜卡面排行榜`
+
+> ⚠️ **注意**：此功能和SakuraBOT中的 **PJSK猜卡面** 并不互通，我更推荐玩这个
+
+<div align="center">
+  <img src="/image/gc1.jpg" alt="猜卡面演示" width="45%" style="margin: 5px; border-radius: 8px;"/>
+  <img src="/image/gc2.jpg" alt="猜卡面帮助" width="60%" style="margin: 5px; border-radius: 8px;"/>
 </div>
 
 ### 🎧 网易云点歌
