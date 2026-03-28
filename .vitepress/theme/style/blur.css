@@ -1,41 +1,19 @@
-/* .vitepress\theme\style\blur.css */
-:root {
-  /* 首页下滑后导航透明 */
-  .VPNavBar:not(.has-sidebar):not(.home.top) {
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(10px);
-  }
+/* 毛玻璃效果 - 简化版 */
 
-  /* 搜索框透明 */
-  .DocSearch-Button {
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(10px);
-  }
+.VPNavBar:not(.has-sidebar):not(.home.top) {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+}
 
-  /* Feature透明 */
-  .VPFeature {
-    border: none;
-    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
-    background-color: transparent;
-  }
+.dark .VPNavBar:not(.has-sidebar):not(.home.top) {
+  background: rgba(18, 18, 20, 0.9);
+}
 
-  /* 文档页侧边栏顶部透明 */
-  .curtain {
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(10px);
-  }
+.VPLocalNav {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+}
 
-  @media (min-width: 960px) {
-    /* 文档页导航中间透明 */
-    .VPNavBar:not(.home.top) .content-body {
-      background-color: rgba(255, 255, 255, 0);
-      backdrop-filter: blur(10px);
-    }
-  }
-
-  /* 移动端大纲栏透明 */
-  .VPLocalNav {
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(10px);
-  }
+.dark .VPLocalNav {
+  background: rgba(18, 18, 20, 0.9);
 }

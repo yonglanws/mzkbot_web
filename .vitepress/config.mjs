@@ -31,7 +31,7 @@ export default defineConfig({
         text: '其它',
         items: [
           { text: '关于', link: '/thank' },
-          { text: '神人榜', link: '/shen' },
+          { text: '开源', link: '/kaiyuan' },
           { text: '交流群', link: '/how2use' },
           { text: '赞助', link: '/money' }
         ]
