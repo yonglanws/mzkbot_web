@@ -1,4 +1,4 @@
-# 🤖 mzkbot 使用帮助
+# 指令帮助
 
 欢迎使用 mzkbot！以下是详细的功能指令指南。
 
@@ -7,7 +7,8 @@
 - **指令**：`@mzkbot` 后接内容即可进行对话
   - 示例：`@mzkbot 你好`
 
-> ⚠️ **注意**：在使用高峰期，对话功能可能会出现较为严重的延迟，请耐心等待
+> [!tip]注意
+> 在使用高峰期，对话功能可能会出现较为严重的延迟，请耐心等待
 
 <div align="center">
   <img src="/image/talk.png" alt="对话功能演示" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
@@ -19,7 +20,8 @@
 
 > 后续会完善更多功能
 >
-> ⚠️ **注意**：高峰期可能出现延迟，请耐心等待。
+> [!tip]注意
+> 高峰期可能出现延迟，请耐心等待。
 
 <div align="center">
   <img src="/image/signin.png" alt="签到功能演示" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
@@ -34,7 +36,8 @@
 - 以此类推...
 - **排行榜**：`@mzkbot 本地猜歌排行榜`
 
-> ⚠️ **注意**：此功能和SakuraBOT中的 **PJSK听歌识曲** 并不互通，我更推荐玩这个
+> [!tip]注意
+> 此功能和SakuraBOT中的 **PJSK听歌识曲** 并不互通，我更推荐玩这个
 
 <div align="center">
   <img src="/image/pjskgs.png" alt="猜歌演示" width="45%" style="margin: 5px; border-radius: 8px;"/>
@@ -48,7 +51,8 @@
 - **排行榜**：`@mzkbot 猜卡面排行榜`
 - **排行榜自定义名称**：`@mzkbot 猜卡面自定义名称 自定义名称`
 
-> ⚠️ **注意**：此功能和SakuraBOT中的 **PJSK猜卡面** 并不互通，我更推荐玩这个
+> [!tip]注意
+> 此功能和SakuraBOT中的 **PJSK猜卡面** 并不互通，我更推荐玩这个
 
 <div align="center">
   <img src="/image/gc1.jpg" alt="猜卡面演示" width="45%" style="margin: 5px; border-radius: 8px;"/>
@@ -87,21 +91,9 @@
   <img src="/image/song2.png" alt="点歌演示2" width="55%" style="margin: 5px; border-radius: 8px;"/>
 </div>
 
-### 👍 QQ点赞
-
-- **赞自己**：`@mzkbot 赞我` 或直接发送 `赞我`
-- **赞他人(可以同时@多个人)**：`@mzkbot 赞@XXX` 或直接发送 `赞@XXX`
-- **订阅点赞**：`@mzkbot 订阅点赞` 订阅后bot每天自动为用户点赞
-
-> 📌 注意:非好友每天只能点50人，每人50个赞。若接收不到点赞可能是你没加bot好友，而bot今日给陌生人点赞量也已到达上限
-
-<div align="center">
-  <img src="/image/zan.png" alt="赞我功能" width="60%" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"/>
-</div>
-
 ### 😂 表情包生成
 
-- **直接触发**：无需 `@mzkbot`，直接发送关键词即可（如：`滚 ` 、`亲 ` 、 ` 原神启动`）。
+- **直接触发**：无需 `@mzkbot`，直接发送关键词即可（如：`滚 `  、`亲 `  、  ` 原神启动`）。
 - **查看列表**：`@mzkbot 表情列表`
 
 <div align="center">
@@ -134,7 +126,8 @@
 
 ## 🌸 SakuraBOT 专项功能 (Project Sekai)
 
-> 💡 **提示**：运行以下 SakuraBOT 指令时，**不需要**添加 `@mzkbot` 前缀，直接发送指令即可。
+> [!tip]注意
+> 运行以下 SakuraBOT 指令时，**不需要**添加 `@mzkbot` 前缀，直接发送指令即可。
 >
 > 🌏 **多服支持**：涉及用户数据的指令，可添加 `tw` 或 `cn` 前缀来触发台服/国服专属功能（默认为日服）。
 
@@ -168,7 +161,7 @@
 | `pjskcard`   | 获取个人卡牌图鉴  *支持* *`pjskcard+角色名`* *查单角色* |
 | `pjskevent`  | 获取个人历史最高活动排名记录 (近10次)                  |
 
-### 🃏 智能卡组推荐
+### 🃏 智能卡组推荐 (需上传数据)
 
 | 指令     | 用法示例                   | 说明                                      |
 | :----- | :--------------------- | :-------------------------------------- |

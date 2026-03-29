@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/mzkbot_web/",
   head: [["link", { rel: "icon", href: "https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp" }]],
   themeConfig: {
-    outlineTitle: "目录",
+    outlineTitle: "文章目录",
     outline: [2,6],
     // https://vitepress.dev/reference/default-theme-config
     nav: [

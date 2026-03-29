@@ -1,6 +1,6 @@
 /**
  * mzkbot 主题样式
- * 参考 AstrBot 设计规范
+ * 参考 VitePress 美化最佳实践
  */
 
 /* ============================================
@@ -12,6 +12,7 @@
   --vp-c-brand-2: #d45d8f;
   --vp-c-brand-3: #c4457a;
   --vp-c-brand-soft: rgba(232, 121, 169, 0.14);
+  --vp-c-brand-next: #a855f7;
 }
 
 .dark {
@@ -19,6 +20,7 @@
   --vp-c-brand-2: #ec4899;
   --vp-c-brand-3: #db2777;
   --vp-c-brand-soft: rgba(244, 114, 182, 0.16);
+  --vp-c-brand-next: #c084fc;
 }
 
 /* ============================================
@@ -27,8 +29,16 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #ff6b9d 30%, #a855f7 100%);
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #ff6b9d 50%, #76bfff 50%);
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    var(--vp-c-brand-1) 30%,
+    var(--vp-c-brand-next)
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    var(--vp-c-brand-1) 50%,
+    var(--vp-c-brand-next) 50%
+  );
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -55,7 +65,7 @@
   50% { background-position: 100% center; }
 }
 
-/* Hero 图片悬停效果 */
+/* Hero 图片悬停 */
 .VPHero .image-container {
   transition: transform 0.3s ease;
 }
@@ -262,15 +272,22 @@
   max-width: 100%;
   border-radius: 8px;
   margin: 1rem 0;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.vp-doc img:hover {
+  transform: scale(1.01);
 }
 
 /* ============================================
-   提示框
+   提示框/自定义容器
    ============================================ */
 
 .custom-block {
   border-radius: 8px;
   margin: 1rem 0;
+  padding: 16px 20px;
 }
 
 .custom-block.tip {
@@ -309,8 +326,14 @@
   color: #2563eb;
 }
 
+/* details 容器 */
+.custom-block.details {
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+}
+
 /* ============================================
-   代码
+   代码块
    ============================================ */
 
 .vp-doc :not(pre) > code {
@@ -319,6 +342,29 @@
   padding: 0.2em 0.4em;
   border-radius: 4px;
   font-size: 0.875em;
+}
+
+/* 代码块样式 */
+.vp-doc [class*='language-'] {
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* ============================================
+   引用块
+   ============================================ */
+
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  padding: 12px 20px;
+  border-radius: 0 8px 8px 0;
+  margin: 1rem 0;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc blockquote p {
+  margin: 0;
 }
 
 /* ============================================
