@@ -2,7 +2,7 @@
 
 ## 使用方法
 
-<img src="/image/gshelp.png" alt="猜歌开始" style="max-width: 500px;">
+<img src="/image/gshelp.png" alt="猜歌开始" style="max-width: 200px;">
 
 ## 注意事项
 

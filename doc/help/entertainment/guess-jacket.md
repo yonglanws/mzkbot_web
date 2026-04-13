@@ -2,7 +2,7 @@
 
 ## 使用方法
 
-<img src="/image/qh.jpg" alt="猜曲绘帮助" style="max-width: 500px;">
+<img src="/image/qh.jpg" alt="猜曲绘帮助" style="max-width: 200px;">
 
 ## 注意事项
 

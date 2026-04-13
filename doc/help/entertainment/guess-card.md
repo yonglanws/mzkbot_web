@@ -1,8 +1,8 @@
-﻿﻿# PJSK 猜卡面
+﻿# PJSK 猜卡面
 
 ## 使用方法
 
-<img src="/image/gc1.jpg" alt="猜卡面帮助" style="max-width: 500px;">
+<img src="/image/gc1.jpg" alt="猜卡面帮助" style="max-width: 200px;">
 
 ## 注意事项
 

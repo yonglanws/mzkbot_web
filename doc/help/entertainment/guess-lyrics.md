@@ -2,7 +2,7 @@
 
 ## 使用方法
 
-<img src="/image/gccq.jpg" alt="歌词猜曲帮助" style="max-width: 500px;">
+<img src="/image/gccq.jpg" alt="歌词猜曲帮助" style="max-width: 200px;">
 
 ## 注意事项
 
