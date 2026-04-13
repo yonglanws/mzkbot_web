@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as e,ak as o}from"./chunks/framework.LQQarekz.js";const _=JSON.parse('{"title":"使用 BOT 的规范","description":"","frontmatter":{},"headers":[],"relativePath":"guize.md","filePath":"doc/guize.md"}'),i={name:"guize.md"};function l(s,t,n,c,d,g){return r(),e("div",null,[...t[0]||(t[0]=[o("",8)])])}const h=a(i,[["render",l]]);export{_ as __pageData,h as default};

@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as e,ak as o}from"./chunks/framework.BCLaBPKE.js";const b=JSON.parse('{"title":"📂 开源","description":"","frontmatter":{},"headers":[],"relativePath":"kaiyuan.md","filePath":"doc/kaiyuan.md"}'),s={name:"kaiyuan.md"};function n(l,t,i,_,g,c){return r(),e("div",null,[...t[0]||(t[0]=[o("",7)])])}const p=a(s,[["render",n]]);export{b as __pageData,p as default};

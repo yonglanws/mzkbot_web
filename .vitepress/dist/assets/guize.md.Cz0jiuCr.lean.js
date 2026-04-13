@@ -1,1 +1,0 @@
-import{_ as t,o,c as e,ak as a}from"./chunks/framework.D2SKCb-o.js";const _=JSON.parse('{"title":"🚫 使用 BOT 的规范","description":"","frontmatter":{},"headers":[],"relativePath":"guize.md","filePath":"guize.md"}'),l={name:"guize.md"};function n(i,r,s,p,c,g){return o(),e("div",null,[...r[0]||(r[0]=[a("",8)])])}const d=t(l,[["render",n]]);export{_ as __pageData,d as default};

@@ -1,4 +1,4 @@
-﻿﻿# PJSK 猜歌
+﻿# PJSK 猜歌
 
 ## 使用方法
 
@@ -48,7 +48,7 @@
         嗯...<br>
         这首歌是什么呢？请在30秒内发送编号回答哦～<br>
         每个玩家有两次作答机会<br>
-        <img src="/image/talk/gs1.png" alt="猜歌开始" style="max-width: 280px;">
+        <img src="/image/talk/gs1.png" alt="猜歌开始" style="max-width: 140px;">
       </div>
     </div>
   </div>
