@@ -1,37 +1,124 @@
-# PJSK 猜歌
+﻿# PJSK 猜歌
 
 ## 使用方法
 
 ### 普通猜歌
 
-<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
-  <div style="display: flex; align-items: center; margin-bottom: 8px;">
-    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+<div class="chat-container">
+  <div class="chat-message user">
+    <div class="chat-avatar">用户</div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">用户</span>
+        <span class="chat-time">19:00</span>
+      </div>
+      <div class="chat-bubble">
+        @mzkbot pjsk猜歌
+      </div>
+    </div>
   </div>
-  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
-    @mzkbot pjsk猜歌
+  <div class="chat-message user">
+    <div class="chat-avatar">用户</div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">用户</span>
+        <span class="chat-time">19:02</span>
+      </div>
+      <div class="chat-bubble">
+        (用户回答) 1
+      </div>
+    </div>
   </div>
 </div>
 
 ### 查看排行榜
 
-<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
-  <div style="display: flex; align-items: center; margin-bottom: 8px;">
-    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
-  </div>
-  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
-    @mzkbot 本地猜歌排行榜
+<div class="chat-container">
+  <div class="chat-message user">
+    <div class="chat-avatar">用户</div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">用户</span>
+        <span class="chat-time">19:10</span>
+      </div>
+      <div class="chat-bubble">
+        @mzkbot 猜歌排行榜
+      </div>
+    </div>
   </div>
 </div>
 
-<img src="/image/gshelp.png" alt="猜歌帮助" width="60%">
+<img src="/image/gshelp.png" alt="猜歌演示" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
 
 ## 注意事项
 
-> [!warning] 限制说明
-> 由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用，请移步至 mzkbot 的娱乐功能专群 **1098198311** 游玩。
+::: warning 限制说明
+由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用，请移步至 mzkbot 的娱乐功能专群 **1098198311** 游玩。
+:::
 
 ## 演示
 
-<img src="/image/pjskgs.png" alt="猜歌演示" width="60%">
+<img src="/image/pjskgs.png" alt="猜歌演示" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
 
+<style>
+.chat-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 16px;
+  background: #f5f5f7;
+  border-radius: 16px;
+}
+
+.chat-message {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: flex-start;
+}
+
+.chat-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #34c759;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  flex-shrink: 0;
+  margin-right: 12px;
+}
+
+.chat-content {
+  max-width: 70%;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: #8e8e93;
+}
+
+.chat-name {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.chat-time {
+  font-size: 11px;
+}
+
+.chat-bubble {
+  padding: 12px 16px;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  background: #007aff;
+  color: white;
+  border-bottom-left-radius: 4px;
+}
+</style>

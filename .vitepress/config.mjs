@@ -10,7 +10,9 @@ export default defineConfig({
   rewrites: {
     'doc/:page': ':page',
     'doc/help/:category/:page': 'help/:category/:page',
-    'doc/help/:page': 'help/:page'
+    'doc/help/:page': 'help/:page',
+    'doc/help/haruki-neo/:page': 'help/haruki-neo/:page',
+    'doc/help/haruki/:page': 'help/haruki/:page'
   },
   themeConfig: {
     logo: "https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp",
@@ -27,14 +29,15 @@ export default defineConfig({
           { text: '每日签到', link: '/help/basic/signin' },
           { text: 'PJSK猜歌', link: '/help/entertainment/guess-song' },
           { text: '网易云点歌', link: '/help/entertainment/music' },
-          { text: 'SakuraBOT', link: '/help/sakura/user-data' }
+          { text: 'HarukiBot NEO', link: '/help/haruki-neo/' },
+          { text: 'HarukiBOT', link: '/help/haruki/' }
         ]
       },
       { 
         text: '📋 其他页面',
         items: [
-          { text: '使用规范', link: '/guize' },
           { text: '关于', link: '/thank' },
+          { text: '使用规范', link: '/guize' },
           { text: '开源', link: '/kaiyuan' },
           { text: '交流群', link: '/how2use' },
           { text: '赞助', link: '/money' }
@@ -81,22 +84,27 @@ export default defineConfig({
             ]
           },
           {
-            text: 'SakuraBOT 专项',
+            text: 'HarukiBot NEO 专项',
             collapsed: true,
             items: [
-              { text: '用户数据管理', link: '/help/sakura/user-data' },
-              { text: '高阶数据分析', link: '/help/sakura/advanced' },
-              { text: '智能卡组推荐', link: '/help/sakura/deck' },
-              { text: '查询与工具箱', link: '/help/sakura/tools' }
+              { text: '使用指南', link: '/help/haruki-neo/' }
+            ]
+          },
+          {
+            text: 'HarukiBOT 专项',
+            collapsed: true,
+            items: [
+              { text: '使用指南', link: '/help/haruki/' }
             ]
           }
+          
         ]
       },
       {
         text: '📋 其他页面',
         items: [
-          { text: '使用规范', link: '/guize' },
           { text: '关于', link: '/thank' },
+          { text: '使用规范', link: '/guize' },
           { text: '开源', link: '/kaiyuan' },
           { text: '交流群', link: '/how2use' },
           { text: '赞助', link: '/money' }

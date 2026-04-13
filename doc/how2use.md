@@ -6,9 +6,10 @@
 - 🐛 **反馈 Bug 与建议**
 - 🗣️ **与其他玩家交流心得**
 
-> [!tip]⚠️注意
-> 如果 BOT 出现异常，请在群内第一时间通知 BOT 主，以便快速修复。
+::: tip 注意
+如果 BOT 出现异常，请在群内第一时间通知 BOT 主，以便快速修复。
+:::
 
 <div align="center">
-  <img src="/image/group.jpg" alt="BOT官方交流群二维码" width="70%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  <img src="/image/group.jpg" alt="BOT官方交流群二维码" style="max-width: 70%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>

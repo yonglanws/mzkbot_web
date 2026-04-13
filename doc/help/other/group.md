@@ -9,4 +9,4 @@
 
 ## 演示
 
-<img src="/image/hy.jpg" alt="入群/退群提示演示" width="60%">
+<img src="/image/hy.jpg" alt="入群/退群提示演示" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">

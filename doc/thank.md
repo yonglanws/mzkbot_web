@@ -62,7 +62,7 @@
   <div style="background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <div style="display: flex; align-items: center; margin-bottom: 12px;">
       <span style="font-size: 24px; margin-right: 12px;">🎨</span>
-      <h3 style="margin: 0; font-size: 1.25rem; color: #333;">SakuraBot</h3>
+      <h3 style="margin: 0; font-size: 1.25rem; color: #333;">HarukiBot NEO</h3>
     </div>
     <p style="color: #666; line-height: 1.6; margin: 0; font-size: 0.95rem;">
       优秀的《世界计划 多彩舞台》查询服务BOT
