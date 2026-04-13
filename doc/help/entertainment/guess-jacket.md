@@ -2,85 +2,7 @@
 
 ## 使用方法
 
-### 开始猜曲绘
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">21:00</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 猜曲绘
-      </div>
-    </div>
-  </div>
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">21:02</span>
-      </div>
-      <div class="chat-bubble">
-        (用户回答) roki
-      </div>
-    </div>
-  </div>
-</div>
-
-### 查看分数
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">21:10</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 猜曲绘分数
-      </div>
-    </div>
-  </div>
-</div>
-
-### 查看排行榜
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">21:12</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 猜曲绘排行榜
-      </div>
-    </div>
-  </div>
-</div>
-
-### 自定义排行榜名称
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">21:15</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 猜曲绘自定义名称 曲绘达人
-      </div>
-    </div>
-  </div>
-</div>
+<img src="/image/qh.jpg" alt="猜曲绘帮助" style="max-width: 500px;">
 
 ## 注意事项
 
@@ -90,67 +12,65 @@
 
 ## 演示
 
-<img src="/image/qh.png" alt="猜曲绘演示" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
+<div class="chat-container">
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">21:00</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        @mzkbot 猜曲绘
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">21:00</span>
+      </div>
+      <div class="chat-bubble">
+        🎨 猜曲绘游戏 🎨<br>
+        请在30秒内输入歌曲名称回答~<br>
+        效果: 随机裁切<br>
+        难度: ⭐<br>
+        得分: 1分<br>
+        提示: 支持中文名、原名、别名回答，支持模糊匹配<br>
+        <img src="/image/talk/qh1.jpg" alt="猜曲绘" style="max-width: 280px;">
+      </div>
+    </div>
+  </div>
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">21:02</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        旋转木马
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">21:02</span>
+      </div>
+      <div class="chat-bubble">
+        🎉 慵懒午睡答对了！获得1分！
+        正确答案: 旋转木马<br>
+        原名: メリーゴーラウンド<br>
+        别名: 旋转木马 | 加贺2 | Merry go round | mgr | merrygoround | 美丽狗栏 | 冰葱3 | mygo | merry-go-round | NEXT21b  .  .  . 等11个别名 <br>
+        <img src="/image/talk/qh2.jpg" alt="猜曲绘" style="max-width: 280px;">
+      </div>
+    </div>
+  </div>
+</div>
 
-<style>
-.chat-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 16px;
-  background: #f5f5f7;
-  border-radius: 16px;
-}
 
-.chat-message {
-  display: flex;
-  margin-bottom: 16px;
-  align-items: flex-start;
-}
-
-.chat-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #34c759;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  flex-shrink: 0;
-  margin-right: 12px;
-}
-
-.chat-content {
-  max-width: 70%;
-}
-
-.chat-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-  font-size: 12px;
-  color: #8e8e93;
-}
-
-.chat-name {
-  font-weight: 600;
-  margin-right: 8px;
-}
-
-.chat-time {
-  font-size: 11px;
-}
-
-.chat-bubble {
-  padding: 12px 16px;
-  border-radius: 18px;
-  font-size: 14px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  background: #007aff;
-  color: white;
-  border-bottom-left-radius: 4px;
-}
-</style>

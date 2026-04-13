@@ -1,54 +1,8 @@
-﻿# PJSK 猜歌
+﻿﻿# PJSK 猜歌
 
 ## 使用方法
 
-### 普通猜歌
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">19:00</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot pjsk猜歌
-      </div>
-    </div>
-  </div>
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">19:02</span>
-      </div>
-      <div class="chat-bubble">
-        (用户回答) 1
-      </div>
-    </div>
-  </div>
-</div>
-
-### 查看排行榜
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">19:10</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 猜歌排行榜
-      </div>
-    </div>
-  </div>
-</div>
-
-<img src="/image/gshelp.png" alt="猜歌演示" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
+<img src="/image/gshelp.png" alt="猜歌开始" style="max-width: 500px;">
 
 ## 注意事项
 
@@ -58,67 +12,86 @@
 
 ## 演示
 
-<img src="/image/pjskgs.png" alt="猜歌演示" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
+<div class="chat-container">
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">19:00</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        @mzkbot pjsk猜歌
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">19:00</span>
+      </div>
+      <div class="chat-bubble">
+        [我是语音条] 10s
+      </div>
+    </div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">19:00</span>
+      </div>
+      <div class="chat-bubble">
+        嗯...<br>
+        这首歌是什么呢？请在30秒内发送编号回答哦～<br>
+        每个玩家有两次作答机会<br>
+        <img src="/image/talk/gs1.png" alt="猜歌开始" style="max-width: 280px;">
+      </div>
+    </div>
+  </div>
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">19:00</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        3
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+   <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">19:00</span>
+      </div>
+      <div class="chat-bubble">
+        时间到！<br>
+        本轮答对的玩家有：<br>
+        用户
+      </div>
+    </div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">19:00</span>
+      </div>
+      <div class="chat-bubble">
+       正确答案是:<br>
+        3. ODDS＆ENDS
+        <img src="/image/talk/gs2.png" alt="猜歌开始" style="max-width: 150px;">
+      </div>
+    </div>
+  </div>
+</div>
 
-<style>
-.chat-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 16px;
-  background: #f5f5f7;
-  border-radius: 16px;
-}
 
-.chat-message {
-  display: flex;
-  margin-bottom: 16px;
-  align-items: flex-start;
-}
-
-.chat-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #34c759;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  flex-shrink: 0;
-  margin-right: 12px;
-}
-
-.chat-content {
-  max-width: 70%;
-}
-
-.chat-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-  font-size: 12px;
-  color: #8e8e93;
-}
-
-.chat-name {
-  font-weight: 600;
-  margin-right: 8px;
-}
-
-.chat-time {
-  font-size: 11px;
-}
-
-.chat-bubble {
-  padding: 12px 16px;
-  border-radius: 18px;
-  font-size: 14px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  background: #007aff;
-  color: white;
-  border-bottom-left-radius: 4px;
-}
-</style>

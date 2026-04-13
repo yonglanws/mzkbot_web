@@ -1,19 +1,62 @@
 # 网易云点歌
 
-## 使用方法
+## 演示
 
 ### 标准点歌
 
 <div class="chat-container">
   <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
     <div class="chat-content">
       <div class="chat-header">
-        <span class="chat-name">用户</span>
         <span class="chat-time">16:30</span>
+        <span class="chat-name">用户</span>
       </div>
       <div class="chat-bubble">
         @mzkbot 点歌 千本樱
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">16:30</span>
+      </div>
+      <div class="chat-bubble">
+        【网易云音乐】<br>
+        1. 千本桜 - 黒うさP、初音ミク<br>
+        2. 千本桜 - 黒うさP、初音ミク<br>
+        3. 千本桜 - 黒うさP、初音ミク、鏡音リン、鏡音レン、巡音ルカ、KAITO、MEIKO<br>
+        4. Senbonzakura - Lizz Robinett、黒うさP<br>
+        5. 千本桜 -F edition- - 黒うさP、初音ミク<br>
+        6. 紅一葉 - 黒うさP、巡音ルカ<br>
+        7. 千本桜 - 初音ミク、黒うさP
+      </div>
+    </div>
+  </div>
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">16:30</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        1
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">16:30</span>
+      </div>
+      <div class="chat-bubble">
+        [语音] 4’12‘’ 
       </div>
     </div>
   </div>
@@ -25,14 +68,26 @@
 
 <div class="chat-container">
   <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
     <div class="chat-content">
       <div class="chat-header">
-        <span class="chat-name">用户</span>
         <span class="chat-time">16:35</span>
+        <span class="chat-name">用户</span>
       </div>
       <div class="chat-bubble">
         @mzkbot 我想听胃弱的...
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">16:30</span>
+      </div>
+      <div class="chat-bubble">
+        [语音] 4’12‘’ 
       </div>
     </div>
   </div>
@@ -40,14 +95,26 @@
 
 <div class="chat-container">
   <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
     <div class="chat-content">
       <div class="chat-header">
-        <span class="chat-name">用户</span>
         <span class="chat-time">16:40</span>
+        <span class="chat-name">用户</span>
       </div>
       <div class="chat-bubble">
         @mzkbot r-906 的歌超好听！mzk 能给我推荐几首吗
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">16:30</span>
+      </div>
+      <div class="chat-bubble">
+        [语音] 4’12‘’ 
       </div>
     </div>
   </div>
@@ -55,70 +122,5 @@
 
 **使用方法：** 直接用自然语言描述你想听的歌
 
-## 演示
 
-<img src="/image/song1.png" alt="点歌演示1" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
-<img src="/image/song2.png" alt="点歌演示2" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
 
-<style>
-.chat-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 16px;
-  background: #f5f5f7;
-  border-radius: 16px;
-}
-
-.chat-message {
-  display: flex;
-  margin-bottom: 16px;
-  align-items: flex-start;
-}
-
-.chat-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #34c759;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  flex-shrink: 0;
-  margin-right: 12px;
-}
-
-.chat-content {
-  max-width: 70%;
-}
-
-.chat-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-  font-size: 12px;
-  color: #8e8e93;
-}
-
-.chat-name {
-  font-weight: 600;
-  margin-right: 8px;
-}
-
-.chat-time {
-  font-size: 11px;
-}
-
-.chat-bubble {
-  padding: 12px 16px;
-  border-radius: 18px;
-  font-size: 14px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  background: #007aff;
-  color: white;
-  border-bottom-left-radius: 4px;
-}
-</style>

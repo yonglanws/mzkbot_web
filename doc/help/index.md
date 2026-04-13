@@ -1,4 +1,4 @@
-﻿# 指令帮助
+﻿﻿﻿# 指令帮助
 
 欢迎使用 mzkbot！以下是详细的功能指令指南。
 
@@ -57,19 +57,19 @@
 
 <div class="chat-container">
   <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
     <div class="chat-content">
       <div class="chat-header">
-        <span class="chat-name">用户</span>
         <span class="chat-time">10:30</span>
+        <span class="chat-name">用户</span>
       </div>
       <div class="chat-bubble">
         @mzkbot 你好
       </div>
     </div>
+    <div class="chat-avatar user-avatar"></div>
   </div>
   <div class="chat-message bot">
-    <div class="chat-avatar">Bot</div>
+    <div class="chat-avatar bot-avatar"></div>
     <div class="chat-content">
       <div class="chat-header">
         <span class="chat-name">mzkbot</span>
@@ -86,141 +86,4 @@
 2. **娱乐功能** — 体验 [PJSK 猜歌](./entertainment/guess-song) 等小游戏
 3. **游戏助手** — 使用 HarukiBot 专项功能查询游戏数据
 
-<style>
-/* 对话框样式 - 简约现代 */
-.chat-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 16px;
-  background: #f5f5f7;
-  border-radius: 16px;
-}
 
-.chat-message {
-  display: flex;
-  margin-bottom: 16px;
-  align-items: flex-start;
-}
-
-.chat-message.user {
-  flex-direction: row-reverse;
-}
-
-.chat-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #007aff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  flex-shrink: 0;
-  margin: 0 12px;
-}
-
-.chat-message.user .chat-avatar {
-  background: #34c759;
-}
-
-.chat-content {
-  max-width: 70%;
-}
-
-.chat-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-  font-size: 12px;
-  color: #8e8e93;
-}
-
-.chat-message.user .chat-header {
-  flex-direction: row-reverse;
-}
-
-.chat-name {
-  font-weight: 600;
-  margin-right: 8px;
-}
-
-.chat-message.user .chat-name {
-  margin-right: 0;
-  margin-left: 8px;
-}
-
-.chat-time {
-  font-size: 11px;
-}
-
-.chat-bubble {
-  padding: 12px 16px;
-  border-radius: 18px;
-  font-size: 14px;
-  line-height: 1.5;
-  word-wrap: break-word;
-}
-
-.chat-message.bot .chat-bubble {
-  background: white;
-  color: #1c1c1e;
-  border-bottom-left-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
-}
-
-.chat-message.user .chat-bubble {
-  background: #007aff;
-  color: white;
-  border-bottom-right-radius: 4px;
-}
-
-.chat-bubble img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-top: 8px;
-}
-
-.chat-bubble code {
-  background: rgba(0,0,0,0.06);
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-family: 'SF Mono', Monaco, monospace;
-  font-size: 13px;
-}
-
-.chat-message.user .chat-bubble code {
-  background: rgba(255,255,255,0.2);
-}
-
-/* 指令标签样式 */
-.cmd-tag {
-  display: inline-block;
-  background: #007aff;
-  color: white;
-  padding: 4px 12px;
-  border-radius: 12px;
-  font-size: 13px;
-  font-weight: 500;
-  font-family: 'SF Mono', Monaco, monospace;
-  margin: 4px 0;
-}
-
-/* 提示框样式 */
-.info-box {
-  background: #f5f5f7;
-  border-left: 4px solid #007aff;
-  padding: 16px;
-  border-radius: 8px;
-  margin: 16px 0;
-}
-
-.warning-box {
-  background: #fff3cd;
-  border-left: 4px solid #ff9500;
-  padding: 16px;
-  border-radius: 8px;
-  margin: 16px 0;
-}
-</style>

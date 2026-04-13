@@ -2,85 +2,7 @@
 
 ## 使用方法
 
-### 开始歌词猜曲
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">22:00</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 歌词猜曲
-      </div>
-    </div>
-  </div>
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">22:02</span>
-      </div>
-      <div class="chat-bubble">
-        (用户回答) 1
-      </div>
-    </div>
-  </div>
-</div>
-
-### 查看分数
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">22:10</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 歌词猜曲分数
-      </div>
-    </div>
-  </div>
-</div>
-
-### 查看排行榜
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">22:12</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 歌词猜曲排行榜
-      </div>
-    </div>
-  </div>
-</div>
-
-### 自定义排行榜名称
-
-<div class="chat-container">
-  <div class="chat-message user">
-    <div class="chat-avatar">用户</div>
-    <div class="chat-content">
-      <div class="chat-header">
-        <span class="chat-name">用户</span>
-        <span class="chat-time">22:15</span>
-      </div>
-      <div class="chat-bubble">
-        @mzkbot 歌词猜曲自定义名称 歌词王
-      </div>
-    </div>
-  </div>
-</div>
+<img src="/image/gccq.jpg" alt="歌词猜曲帮助" style="max-width: 500px;">
 
 ## 注意事项
 
@@ -90,67 +12,70 @@
 
 ## 演示
 
-<img src="/image/gccq.jpg" alt="歌词猜曲演示" style="max-width: 60%; border-radius: 12px; margin-top: 16px;">
+<div class="chat-container">
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">22:00</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        @mzkbot 歌词猜曲
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">22:00</span>
+      </div>
+      <div class="chat-bubble">
+        请在30秒内输入数字(1-10)选择正确答案~
+        <br>每位玩家最多可回答2次，全局共6次机会
+        <br>【歌词片段】
+        <br>毒にはなれないね このままじゃ
+        <br>已经离不开毒药了 再这样下去
+        <br>また駄目だったんだ
+        <br>又要不行了啊
+        <br>嫌がりたい、痛がりたい
+        <br>想要讨厌，想要疼痛
+        <br>虚になってしまわぬように
+        <br>为了不会变得虚无
+        <br>叶えたい あの子の想いは
+        <br>想要实现的那个孩子的想法
+        <img src="/image/talk/qggc1.png" alt="歌词猜曲" style="max-width: 280px;">
+      </div>
+    </div>
+  </div>
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">22:02</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        脱毒
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">22:02</span>
+      </div>
+      <div class="chat-bubble">
+        🎉 慵懒午睡 答对了！获得1分！<br>
+        正确答案是 [8] 脱毒0<br>
+        <img src="/image/talk/qggc2.png" alt="歌词猜曲" style="max-width: 200px;">
+      </div>
+    </div>
+  </div>
+</div>
 
-<style>
-.chat-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 16px;
-  background: #f5f5f7;
-  border-radius: 16px;
-}
 
-.chat-message {
-  display: flex;
-  margin-bottom: 16px;
-  align-items: flex-start;
-}
-
-.chat-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #34c759;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  flex-shrink: 0;
-  margin-right: 12px;
-}
-
-.chat-content {
-  max-width: 70%;
-}
-
-.chat-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-  font-size: 12px;
-  color: #8e8e93;
-}
-
-.chat-name {
-  font-weight: 600;
-  margin-right: 8px;
-}
-
-.chat-time {
-  font-size: 11px;
-}
-
-.chat-bubble {
-  padding: 12px 16px;
-  border-radius: 18px;
-  font-size: 14px;
-  line-height: 1.5;
-  word-wrap: break-word;
-  background: #007aff;
-  color: white;
-  border-bottom-left-radius: 4px;
-}
-</style>

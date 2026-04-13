@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as o,ak as r,aB as s}from"./chunks/framework.DPSqQ4wT.js";const g=JSON.parse('{"title":"赞助","description":"","frontmatter":{},"headers":[],"relativePath":"money.md","filePath":"doc/money.md"}'),n={name:"money.md"};function i(l,t,c,_,d,p){return e(),o("div",null,[...t[0]||(t[0]=[r("",7)])])}const h=a(n,[["render",i]]);export{g as __pageData,h as default};
