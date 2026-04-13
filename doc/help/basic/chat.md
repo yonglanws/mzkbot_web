@@ -2,15 +2,25 @@
 
 ## 使用方法
 
-```
-@mzkbot 后接内容即可进行对话
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    @mzkbot 后接内容即可进行对话
+  </div>
+</div>
 
 **示例：**
 
-```
-@mzkbot 你好
-```
+<div style="background: #f0f9ff; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #10b981;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #10b981; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">示例</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    @mzkbot 你好
+  </div>
+</div>
 
 ## 功能说明
 

@@ -4,23 +4,27 @@
 
 ### 普通猜歌
 
-```
-@mzkbot pjsk猜歌
-```
-
-### 倍速猜歌
-
-```
-@mzkbot pjsk猜歌1    # 1.5 倍速
-@mzkbot pjsk猜歌2    # 2 倍速
-@mzkbot pjsk猜歌3    # 3 倍速
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    @mzkbot pjsk猜歌
+  </div>
+</div>
 
 ### 查看排行榜
 
-```
-@mzkbot 本地猜歌排行榜
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    @mzkbot 本地猜歌排行榜
+  </div>
+</div>
+
+<img src="/image/gshelp.png" alt="猜歌帮助" width="60%">
 
 ## 注意事项
 
@@ -30,4 +34,4 @@
 ## 演示
 
 <img src="/image/pjskgs.png" alt="猜歌演示" width="60%">
-<img src="/image/gshelp.png" alt="猜歌帮助" width="60%">
+

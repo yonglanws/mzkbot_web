@@ -3,7 +3,7 @@
 ### 核心开发
 <div style="display: flex; align-items: center; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
   <!-- 如果有头像，可以把 src 换成你的头像链接，例如 https://github.com/yonglanws.png -->
-  <img src="https://github.com/yonglanws.png" alt="Avatar" style="width: 64px; height: 64px; border-radius: 50%; margin-right: 20px; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <img src="/image/ylws.jpg" alt="Avatar" style="width: 64px; height: 64px; border-radius: 50%; margin-right: 20px; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
   
   <div>
     <h3 style="margin: 0 0 5px 0; color: #333; font-size: 1.2rem;">慵懒午睡</h3>

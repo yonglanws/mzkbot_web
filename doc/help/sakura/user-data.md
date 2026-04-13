@@ -7,39 +7,64 @@
 
 ### 绑定游戏账号
 
-```
-绑定 ID
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    绑定 ID
+  </div>
+</div>
 
 绑定你的 PJSK 游戏账号 ID。ID 可在游戏个人信息页查看。
 
 ### 设置查询权限
 
-```
-给看
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    给看
+  </div>
+</div>
 
 开放他人 `@` 查询你的权限。
 
-```
-不给看
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    不给看
+  </div>
+</div>
 
 关闭他人 `@` 查询你的权限（默认）。
 
 ### 查看个人资料
 
-```
-pjskprofile
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjskprofile
+  </div>
+</div>
 
 获取个人基本信息卡片。
 
 ### 查看当前绑定
 
-```
-id
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    id
+  </div>
+</div>
 
 查看当前 QQ 绑定的游戏 ID。
 
@@ -47,17 +72,27 @@ id
 
 ### 查看他人队伍
 
-```
-视奸 @用户
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    视奸 @用户
+  </div>
+</div>
 
 查看指定用户的当前队伍综合力及构成。需要对方开启「给看」权限。
 
 ### 查询歌曲进度
 
-```
-逮捕
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    逮捕
+  </div>
+</div>
 
 查询 Expert/Master FC/AP 进度。**需先上传数据**。
 

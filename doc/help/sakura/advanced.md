@@ -7,25 +7,40 @@
 
 ### 查看排位信息
 
-```
-rk
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    rk
+  </div>
+</div>
 
 获取玩家当前排位信息。
 
 ### B39 分析
 
-```
-b39
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    b39
+  </div>
+</div>
 
 获取 Rating 最高的 39 首歌曲及总分（参考用）。
 
 ### B30 分析
 
-```
-pjsk b30
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjsk b30
+  </div>
+</div>
 
 获取 Rating 最高的 30 首歌曲及平均分（算法不同）。
 
@@ -33,17 +48,27 @@ pjsk b30
 
 ### Expert 进度
 
-```
-pjsk进度ex
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjsk进度ex
+  </div>
+</div>
 
 查询 **Expert** 难度歌曲完成情况（AP/FC/Clear）。
 
 ### Append 进度
 
-```
-pjsk进度apd
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjsk进度apd
+  </div>
+</div>
 
 查询 **Append** 难度歌曲完成情况。
 
@@ -51,9 +76,14 @@ pjsk进度apd
 
 ### 个人详细信息
 
-```
-pjskdetail
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjskdetail
+  </div>
+</div>
 
 获取详细信息，包括金币、水晶、家具、每日挑战等。
 
@@ -61,23 +91,38 @@ pjskdetail
 
 ### 卡牌图鉴
 
-```
-pjskcard
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjskcard
+  </div>
+</div>
 
 获取个人卡牌图鉴。
 
-```
-pjskcard+角色名
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjskcard+角色名
+  </div>
+</div>
 
-查指定角色的卡牌（如：`pjskcard+奏`）。
+查指定角色的卡牌（如：pjskcard+奏）。
 
 ### 活动历史
 
-```
-pjskevent
-```
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    pjskevent
+  </div>
+</div>
 
 获取个人历史最高活动排名记录（近 10 次）。
 
@@ -85,16 +130,35 @@ pjskevent
 
 所有指令都支持多服前缀：
 
-```
-# 日服（默认）
-rk
-b39
+**日服（默认）**
 
-# 台服
-twrk
-twb39
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    rk / b39
+  </div>
+</div>
 
-# 国服
-cnrk
-cnb39
-```
+**台服**
+
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    twrk / twb39
+  </div>
+</div>
+
+**国服**
+
+<div style="background: #f5f7fa; border-radius: 12px; padding: 16px; margin: 12px 0; border-left: 4px solid #4a90e2;">
+  <div style="display: flex; align-items: center; margin-bottom: 8px;">
+    <span style="background: #4a90e2; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold;">指令</span>
+  </div>
+  <div style="background: white; padding: 12px 16px; border-radius: 8px; font-family: monospace; color: #333;">
+    cnrk / cnb39
+  </div>
+</div>
