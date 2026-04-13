@@ -1,0 +1,1 @@
+import{_ as r,o as a,c as e,ak as o}from"./chunks/framework.BKYNGr60.js";const c=JSON.parse('{"title":"📂 开源","description":"","frontmatter":{},"headers":[],"relativePath":"kaiyuan.md","filePath":"doc/kaiyuan.md"}'),n={name:"kaiyuan.md"};function s(l,t,i,g,_,h){return a(),e("div",null,[...t[0]||(t[0]=[o("",7)])])}const u=r(n,[["render",s]]);export{c as __pageData,u as default};
