@@ -1,0 +1,134 @@
+/**
+ * 暗黑模式切换动画 - 圆形扩散效果
+ * --------------------------------------------------------------------------
+ */
+
+/* 视图过渡动画配置 */
+::view-transition-old(*) {
+  animation: none;
+}
+
+::view-transition-new(*) {
+  animation: globalDark 0.5s ease-out;
+}
+
+@keyframes globalDark {
+  from {
+    clip-path: circle(0% at var(--darkX, 50%) var(--darkY, 50%));
+  }
+  to {
+    clip-path: circle(150% at var(--darkX, 50%) var(--darkY, 50%));
+  }
+}
+
+/* 颜色变量平滑过渡 */
+html,
+body,
+.VPDoc,
+.vp-doc,
+.VPNavBar,
+.VPSidebar,
+.VPFooter,
+.VPHero,
+.VPFeature,
+.VPButton,
+.custom-block,
+.chat-container,
+.chat-bubble {
+  transition: background-color 0.3s ease, 
+              color 0.3s ease, 
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* 暗黑模式下图片亮度调整 */
+.dark img {
+  filter: brightness(0.85);
+  transition: filter 0.3s ease;
+}
+
+/* 暗黑模式下阴影增强 */
+.dark .VPFeature:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.dark .chat-message.bot .chat-bubble {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 按钮过渡优化 */
+.VPButton {
+  transition: transform 0.2s ease, 
+              box-shadow 0.2s ease,
+              background-color 0.3s ease,
+              border-color 0.3s ease;
+}
+
+/* 链接颜色过渡 */
+.vp-doc a {
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+/* 代码块背景过渡 */
+.vp-doc :not(pre) > code {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 表格行悬停过渡 */
+.vp-doc tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+/* 提示框边框和背景过渡 */
+.custom-block {
+  transition: border-color 0.3s ease, 
+              background-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* 引用块过渡 */
+.vp-doc blockquote {
+  transition: border-color 0.3s ease, 
+              background-color 0.3s ease;
+}
+
+/* 导航栏背景过渡 */
+.VPNavBar {
+  transition: background-color 0.3s ease, 
+              backdrop-filter 0.3s ease,
+              border-color 0.3s ease;
+}
+
+/* Feature 图标过渡 */
+.VPFeature .icon {
+  transition: transform 0.3s ease, 
+              box-shadow 0.3s ease,
+              background 0.3s ease;
+}
+
+/* 减少动画偏好支持 */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-new(*) {
+    animation: none;
+  }
+  
+  html,
+  body,
+  .VPDoc,
+  .vp-doc,
+  .VPNavBar,
+  .VPSidebar,
+  .VPFooter,
+  .VPHero,
+  .VPFeature,
+  .VPButton,
+  .custom-block,
+  .chat-container,
+  .chat-bubble {
+    transition: none;
+  }
+  
+  .dark img {
+    transition: none;
+  }
+}

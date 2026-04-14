@@ -7,6 +7,7 @@ export default defineConfig({
   base: "/mzkbot_web/",
   head: [["link", { rel: "icon", href: "https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp" }]],
   cleanUrls: true,
+  appearance: true,
   rewrites: {
     'doc/:page': ':page',
     'doc/help/:category/:page': 'help/:category/:page',

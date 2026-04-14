@@ -1,0 +1,1 @@
+import{_ as t,o as s,c,ak as r,aC as e}from"./chunks/framework.CTKYh4_8.js";const b=JSON.parse('{"title":"开发者 & 鸣谢","description":"","frontmatter":{},"headers":[],"relativePath":"thank.md","filePath":"doc/thank.md"}'),i={name:"thank.md"};function d(o,a,l,n,p,v){return s(),c("div",null,[...a[0]||(a[0]=[r("",5)])])}const u=t(i,[["render",d]]);export{b as __pageData,u as default};

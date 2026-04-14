@@ -415,11 +415,23 @@
 }
 
 /* ============================================
-   平滑滚动
+   深色模式过渡动画
    ============================================ */
 
 html {
   scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body,
+.VPDoc,
+.vp-doc,
+.VPNavBar,
+.VPSidebar,
+.VPFooter,
+.chat-container,
+.chat-bubble {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 /* ============================================
