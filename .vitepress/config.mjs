@@ -58,7 +58,7 @@ export default defineConfig({
         items: [
           {
             text: '基础功能',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '基础对话', link: '/help/basic/chat' },
               { text: '每日签到', link: '/help/basic/signin' }
@@ -66,7 +66,7 @@ export default defineConfig({
           },
           {
             text: '娱乐互动',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: 'PJSK猜歌', link: '/help/entertainment/guess-song' },
               { text: 'PJSK猜卡面', link: '/help/entertainment/guess-card' },
@@ -77,7 +77,7 @@ export default defineConfig({
           },
           {
             text: '其他功能',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '流媒体解析', link: '/help/other/video' },
               { text: '入群/退群提示', link: '/help/other/group' }
@@ -85,14 +85,14 @@ export default defineConfig({
           },
           {
             text: 'HarukiBot NEO 专项',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '使用指南', link: '/help/haruki-neo/' }
             ]
           },
           {
             text: 'HarukiBOT 专项',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '使用指南', link: '/help/haruki/' }
             ]
