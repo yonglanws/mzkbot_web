@@ -80,8 +80,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '流媒体解析', link: '/help/other/video' },
-              { text: '入群/退群提示', link: '/help/other/group' },
-              { text: '服务器状态监控', link: '/help/other/status' }
+              { text: '入群/退群提示', link: '/help/other/group' }
             ]
           },
           {

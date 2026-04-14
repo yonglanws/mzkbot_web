@@ -1,16 +1,35 @@
-﻿# PJSK 猜歌
+﻿# PJSK 猜歌 <Badge type="warning" text="娱乐" />
 
-## 使用方法
+## 📖 功能简介
 
-<img src="/image/gshelp.png" alt="猜歌开始" style="max-width: 200px;">
+根据音频片段猜测 **Project SEKAI** 中的歌曲名称，考验你的音乐知识储备！
 
-## 注意事项
+::: info 🎵 游戏规则
+- 系统随机播放一段歌曲音频（约10秒）
+- 玩家需要在 **30秒内** 发送编号回答
+- 每个玩家有 **2次** 作答机会
+- 答对可获得积分奖励
+:::
 
-::: warning 限制说明
+## 🎯 使用方法
+
+### 基本指令
+
+```bash
+@mzkbot pjsk猜歌
+```
+
+### 帮助说明
+
+<img src="/image/gshelp.png" alt="猜歌帮助" style="max-width: 200px; border-radius: 8px;">
+
+## ⚠️ 使用限制
+
+::: warning 🔒 功能限制
 由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用，请移步至 mzkbot 的娱乐功能专群 **1098198311** 游玩。
 :::
 
-## 演示
+## 🎮 游戏演示
 
 <div class="chat-container">
   <div class="chat-message user">
@@ -88,10 +107,23 @@
       <div class="chat-bubble">
        正确答案是:<br>
         3. ODDS＆ENDS
-        <img src="/image/talk/gs2.png" alt="猜歌开始" style="max-width: 150px;">
+        <img src="/image/talk/gs2.png" alt="猜歌结果" style="max-width: 150px;">
       </div>
     </div>
   </div>
 </div>
 
+## 📊 游戏参数
 
+| 参数 | 说明 |
+| :--- | :--- |
+| 音频时长 | 约 10 秒 |
+| 回答时限 | 30 秒 |
+| 作答次数 | 每人 2 次 |
+| 计分方式 | 答对获得积分 |
+
+::: tip 💡 小提示
+- 仔细听歌曲的前奏和旋律
+- 可以结合歌词进行判断
+- 多练习可以提高正确率！
+:::

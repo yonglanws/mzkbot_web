@@ -1,59 +1,69 @@
-﻿﻿﻿# 指令帮助
+﻿# 指令帮助 <Badge type="info" text="v2.0" />
 
-欢迎使用 mzkbot！以下是详细的功能指令指南。
+欢迎使用 **mzkbot**！以下是详细的功能指令指南。
 
-对于手机端的用户，你可以随时点击左上角的Menu按钮切换界面。
+> 💡 **小提示**：对于手机端用户，你可以随时点击左上角的 `Menu` 按钮切换界面。
 
-::: tip 注意
+::: info 📌 使用前必读
 - 大部分指令需要在群聊中 `@mzkbot` 后输入
 - HarukiBot 专项功能 **不需要** `@mzkbot` 前缀
 - 高峰期可能出现延迟，请耐心等待
 :::
 
-## 功能分类
+## 功能总览
 
-### 基础功能
-
-- [基础对话](./basic/chat) — AI 智能对话功能
-- [每日签到](./basic/signin) — 每日签到获取奖励
-
-### 娱乐互动
-
-- [PJSK 猜歌](./entertainment/guess-song) — 根据音频猜歌曲
-- [PJSK 猜卡面](./entertainment/guess-card) — 根据卡面局部猜角色
-- [PJSK 猜曲绘](./entertainment/guess-jacket) — 根据曲绘局部猜歌曲
-- [PJSK 歌词猜曲](./entertainment/guess-lyrics) — 根据歌词猜歌曲
-- [网易云点歌](./entertainment/music) — 智能点歌系统
-
-::: warning 娱乐功能限制
-由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用，请移步至 mzkbot 的娱乐功能专群 **1098198311** 游玩。
+::: tip 🎯 tip：点击下方功能即可跳转到详细页面
 :::
 
-### 其他功能
 
-- [流媒体解析](./other/video) — 支持 B 站、抖音、小红书等平台
-- [入群/退群提示](./other/group) — 自动欢迎和送别
-- [服务器状态监控](./other/status) — 系统运行状态
 
-### HarukiBot 专项功能
+### 🎯 基础功能 <Badge type="tip" text="推荐" />
 
-::: info 使用须知
+| 功能 | 指令 | 说明 |
+| :--- | :--- | :--- |
+| [基础对话](./basic/chat) | `@mzkbot + 内容` | AI 智能对话功能，提供情绪价值与陪伴 |
+| [每日签到](./basic/signin) | `@mzkbot 签到` 或 `签到` | 每日签到获取奖励 |
+
+### 🎮 娱乐互动 <Badge type="tip" text="推荐" />
+
+| 功能 | 指令 | 说明 |
+| :--- | :--- | :--- |
+| [PJSK 猜歌](./entertainment/guess-song) | `@mzkbot 猜歌` | 根据音频猜歌曲 |
+| [PJSK 猜卡面](./entertainment/guess-card) | `@mzkbot 猜卡面` | 根据卡面局部猜角色 |
+| [PJSK 猜曲绘](./entertainment/guess-jacket) | `@mzkbot 猜曲绘` | 根据曲绘局部猜歌曲 |
+| [PJSK 歌词猜曲](./entertainment/guess-lyrics) | `@mzkbot 歌词猜曲` | 根据歌词猜歌曲 |
+| [网易云点歌](./entertainment/music) | `@mzkbot 点歌 歌名` | 智能点歌系统 |
+
+::: warning ⚠️ 娱乐功能限制
+由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用（除网易云点歌外），请移步至 mzkbot 的娱乐功能专群 **1098198311** 游玩。
+:::
+
+### 🔧 其他功能
+
+| 功能 | 指令 | 说明 |
+| :--- | :--- | :--- |
+| [流媒体解析](./other/video) | 直接发送链接 | 支持 B 站、抖音、小红书等平台 |
+| [入群/退群提示](./other/group) | 自动触发 | 自动欢迎和送别 |
+
+### 🎵 HarukiBot 专项功能 <Badge type="info" text="无需@" />
+
+::: info ℹ️ 使用须知
 - 运行以下 HarukiBot 指令时，**不需要**添加 `@mzkbot` 前缀，直接发送指令即可
 - **多服支持**：涉及用户数据的指令，可添加 `en`/`tw`/`kr`/`cn` 前缀来触发国际服/台服/韩服/国服专属功能（默认为日服）
 :::
 
-- [使用指南](./haruki/) — HarukiBot 完整使用指南
+👉 [查看完整使用指南](./haruki/)
 
-### HarukiBot NEO 专项功能
+### 🆕 HarukiBot NEO 专项功能 <Badge type="info" text="无需@" /> <Badge type="danger" text="新" />
 
-::: info 使用须知
+::: info ℹ️ 使用须知
 - **必须带前缀**：从 HarukiBot NEO 版本起，所有指令必须以 `/` 开头（例如 `/绑定`）
 - **公测阶段**：Bot 可能存在 Bug，如有问题请联系 HarukiBot 分布式 Bot 主反馈
 :::
 
-- [使用指南](./haruki-neo/) — HarukiBot NEO 完整使用指南
+👉 [查看完整使用指南](./haruki-neo/)
 
-## 快速开始
+## 🚀 快速开始
 
 <div class="chat-container">
   <div class="chat-message user">
@@ -82,8 +92,8 @@
   </div>
 </div>
 
-1. **新手入门** — 了解 [基础对话](./basic/chat) 和 [每日签到](./basic/signin)
-2. **娱乐功能** — 体验 [PJSK 猜歌](./entertainment/guess-song) 等小游戏
-3. **游戏助手** — 使用 HarukiBot 专项功能查询游戏数据
+### 📋 新手入门路线
 
-
+1. **🎯 基础入门** — 了解 [基础对话](./basic/chat) 和 [每日签到](./basic/signin)
+2. **🎮 娱乐体验** — 体验 [PJSK 猜歌](./entertainment/guess-song) 等小游戏
+3. **🎵 游戏助手** — 使用 HarukiBot 专项功能查询游戏数据

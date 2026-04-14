@@ -1,16 +1,35 @@
-# PJSK 歌词猜曲
+# PJSK 歌词猜曲 <Badge type="warning" text="娱乐" />
 
-## 使用方法
+## 📖 功能简介
 
-<img src="/image/gccq.jpg" alt="歌词猜曲帮助" style="max-width: 200px;">
+根据**歌词片段**猜测对应的 PJSK 歌曲，真正的歌词达人挑战！
 
-## 注意事项
+::: info 🎤 游戏规则
+- 系统展示一段歌词（中日双语）
+- 提供 **10个选项**供选择
+- 玩家需要输入对应**数字编号**作答
+- 每位玩家最多可回答 **2次**，全局共 **6次** 机会
+:::
 
-::: warning 限制说明
+## 🎯 使用方法
+
+### 基本指令
+
+```bash
+@mzkbot 歌词猜曲
+```
+
+### 帮助说明
+
+<img src="/image/gccq.jpg" alt="歌词猜曲帮助" style="max-width: 200px; border-radius: 8px;">
+
+## ⚠️ 使用限制
+
+::: warning 🔒 功能限制
 由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用，请移步至 mzkbot 的娱乐功能专群 **1098198311** 游玩。
 :::
 
-## 演示
+## 🎮 游戏演示
 
 <div class="chat-container">
   <div class="chat-message user">
@@ -46,7 +65,7 @@
         <br>为了不会变得虚无
         <br>叶えたい あの子の想いは
         <br>想要实现的那个孩子的想法
-        <img src="/image/talk/qggc1.png" alt="歌词猜曲" style="max-width: 280px;">
+        <img src="/image/talk/qggc1.png" alt="歌词猜曲题目" style="max-width: 280px;">
       </div>
     </div>
   </div>
@@ -72,10 +91,27 @@
       <div class="chat-bubble">
         🎉 慵懒午睡 答对了！获得1分！<br>
         正确答案是 [8] 脱毒0<br>
-        <img src="/image/talk/qggc2.png" alt="歌词猜曲" style="max-width: 200px;">
+        <img src="/image/talk/qggc2.png" alt="歌词猜曲答案" style="max-width: 200px;">
       </div>
     </div>
   </div>
 </div>
 
+## 📊 游戏机制
 
+| 项目 | 说明 |
+| :--- | :--- |
+| 歌词展示 | 中日双语对照 |
+| 选项数量 | 4-10 个 |
+| 个人作答次数 | 最多 2 次 |
+| 全局总机会 | 共 6 次 |
+| 回答方式 | 输入数字编号 |
+
+## 💡 答题技巧
+
+::: tip 🎯 提示
+- 仔细阅读**日文原文**，注意关键词汇
+- 结合**中文翻译**理解歌词含义
+- 关注**角色特色**用语和表达方式
+- 对熟悉的歌曲可以**快速定位**
+:::

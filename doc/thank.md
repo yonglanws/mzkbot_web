@@ -1,49 +1,13 @@
-# 👨‍💻 开发者 & 🙏 鸣谢
+# 👨‍💻 开发者 & 🙏 鸣谢 <Badge type="tip" text="感谢" />
 
-<style>
-.thank-page-container {
-  --thank-bg-primary: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  --thank-bg-card: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-  --thank-text-title: #333;
-  --thank-text-desc: #666;
-  --thank-border: #eaeaea;
-  --thank-avatar-border: white;
-  --thank-shadow: rgba(0,0,0,0.1);
-  --thank-card-shadow: rgba(0,0,0,0.02);
-}
+感谢所有为 mzkbot 项目做出贡献的开发者、开源项目和社区成员！❤️
 
-.dark .thank-page-container,
-[data-theme="dark"] .thank-page-container {
-  --thank-bg-primary: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-  --thank-bg-card: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-  --thank-text-title: #e2e8f0;
-  --thank-text-desc: #a0aec0;
-  --thank-border: #4a5568;
-  --thank-avatar-border: #4a5568;
-  --thank-shadow: rgba(0,0,0,0.3);
-  --thank-card-shadow: rgba(0,0,0,0.2);
-}
+## 核心开发
 
-@media (prefers-color-scheme: dark) {
-  .thank-page-container {
-    --thank-bg-primary: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-    --thank-bg-card: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-    --thank-text-title: #e2e8f0;
-    --thank-text-desc: #a0aec0;
-    --thank-border: #4a5568;
-    --thank-avatar-border: #4a5568;
-    --thank-shadow: rgba(0,0,0,0.3);
-    --thank-card-shadow: rgba(0,0,0,0.2);
-  }
-}
-</style>
-
-### 核心开发
 <div class="thank-page-container">
 <div style="display: flex; align-items: center; background: var(--thank-bg-primary); padding: 20px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 15px var(--thank-shadow);">
-  <!-- 如果有头像，可以把 src 换成你的头像链接，例如 https://github.com/yonglanws.png -->
   <img src="/image/ylws.jpg" alt="Avatar" style="width: 64px; height: 64px; border-radius: 50%; margin-right: 20px; border: 3px solid var(--thank-avatar-border); box-shadow: 0 2px 5px var(--thank-shadow);">
-  
+
   <div>
     <h3 style="margin: 0 0 5px 0; color: var(--thank-text-title); font-size: 1.2rem;">慵懒午睡</h3>
     <p style="margin: 0; color: var(--thank-text-desc); font-size: 0.9rem;">
@@ -57,7 +21,8 @@
 
 ---
 
-### 特别鸣谢
+## 特别鸣谢
+
 本项目离不开以下优秀开源项目与社区的支持：
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 20px;">
@@ -111,3 +76,50 @@
 
 </div>
 </div>
+
+## 🌟 社区贡献
+
+::: info 🤝 感谢每一位用户
+- **Bug 反馈**：帮助我们发现问题并及时修复
+- **功能建议**：让 mzkbot 变得更加完善
+- **群内活跃**：营造了良好的交流氛围
+- **赞助支持**：为项目的持续运营提供了动力
+:::
+
+<style>
+.thank-page-container {
+  --thank-bg-primary: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --thank-bg-card: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  --thank-text-title: #333;
+  --thank-text-desc: #666;
+  --thank-border: #eaeaea;
+  --thank-avatar-border: white;
+  --thank-shadow: rgba(0,0,0,0.1);
+  --thank-card-shadow: rgba(0,0,0,0.02);
+}
+
+.dark .thank-page-container,
+[data-theme="dark"] .thank-page-container {
+  --thank-bg-primary: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  --thank-bg-card: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  --thank-text-title: #e2e8f0;
+  --thank-text-desc: #a0aec0;
+  --thank-border: #4a5568;
+  --thank-avatar-border: #4a5568;
+  --thank-shadow: rgba(0,0,0,0.3);
+  --thank-card-shadow: rgba(0,0,0,0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .thank-page-container {
+    --thank-bg-primary: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    --thank-bg-card: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    --thank-text-title: #e2e8f0;
+    --thank-text-desc: #a0aec0;
+    --thank-border: #4a5568;
+    --thank-avatar-border: #4a5568;
+    --thank-shadow: rgba(0,0,0,0.3);
+    --thank-card-shadow: rgba(0,0,0,0.2);
+  }
+}
+</style>

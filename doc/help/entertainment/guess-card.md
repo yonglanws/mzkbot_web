@@ -1,16 +1,35 @@
-﻿# PJSK 猜卡面
+﻿# PJSK 猜卡面 <Badge type="warning" text="娱乐" />
 
-## 使用方法
+## 📖 功能简介
 
-<img src="/image/gc1.jpg" alt="猜卡面帮助" style="max-width: 200px;">
+根据角色卡面的**局部图片**猜测对应的角色名称，考验你对 PJSK 角色卡面的熟悉程度！
 
-## 注意事项
+::: info 🎴 游戏规则
+- 系统展示一张卡面的局部（分块打乱或裁切等）
+- 玩家需要在 **30秒内** 发送角色名称缩写作答
+- 支持多种难度模式
+- 答对可获得积分奖励（根据难度不同）
+:::
 
-::: warning 限制说明
+## 🎯 使用方法
+
+### 基本指令
+
+```bash
+@mzkbot 猜卡面
+```
+
+### 帮助说明
+
+<img src="/image/gc1.jpg" alt="猜卡面帮助" style="max-width: 200px; border-radius: 8px;">
+
+## ⚠️ 使用限制
+
+::: warning 🔒 功能限制
 由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用，请移步至 mzkbot 的娱乐功能专群 **1098198311** 游玩。
 :::
 
-## 演示
+## 🎮 游戏演示
 
 <div class="chat-container">
   <div class="chat-message user">
@@ -36,7 +55,7 @@
         请在30秒内发送角色名称缩写进行回答哦(无需@机器人)<br>
         本轮图片效果: 分块打乱(困难)<br>
         猜对得分: 3分<br>
-        <img src="/image/talk/gc1.png" alt="猜卡面" style="max-width: 280px;">
+        <img src="/image/talk/gc1.png" alt="猜卡面题目" style="max-width: 280px;">
       </div>
     </div>
   </div>
@@ -62,10 +81,25 @@
       <div class="chat-bubble">
         慵懒午睡答对了呢!获得了3分！继续加油哦~<br>
         正确答案是: 小豆泽心羽<br>
-        <img src="/image/talk/gc2.png" alt="猜卡面" style="max-width: 280px;">
+        <img src="/image/talk/gc2.png" alt="猜卡面答案" style="max-width: 280px;">
       </div>
     </div>
   </div>
 </div>
 
+## 📊 难度与计分
 
+| 图片效果 | 难度 | 得分 |
+| :--- | :--- | :--- |
+| 分块打乱 | 困难 | 3 分 |
+| 随机裁切 | 普通 | 2 分 |
+| 模糊处理 | 简单 | 1 分 |
+
+## 💡 答题技巧
+
+::: tip 🎯 提示
+- 注意角色的**发型、发色**等显著特征
+- 观察**服装风格**和配饰
+- 记住各角色的**标志性元素**
+- 支持**全名**和**缩写**两种答题方式
+:::

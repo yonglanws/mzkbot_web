@@ -8,6 +8,7 @@ import './style.css'
 import './style/rainbow.css'
 import './style/blur.css'
 import './style/hidden.css'
+import './style/vp-code.css'
 import './style/dark.css'
 
 let homePageStyle = null
