@@ -13,7 +13,8 @@ export default defineConfig({
     'doc/help/:category/:page': 'help/:category/:page',
     'doc/help/:page': 'help/:page',
     'doc/help/haruki-neo/:page': 'help/haruki-neo/:page',
-    'doc/help/haruki/:page': 'help/haruki/:page'
+    'doc/help/haruki/:page': 'help/haruki/:page',
+    'doc/help/haruki/proxy/:page': 'help/haruki/proxy/:page'
   },
   themeConfig: {
     logo: "https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp",
@@ -30,8 +31,8 @@ export default defineConfig({
           { text: '每日签到', link: '/help/basic/signin' },
           { text: 'PJSK猜歌', link: '/help/entertainment/guess-song' },
           { text: '网易云点歌', link: '/help/entertainment/music' },
-          { text: 'HarukiBot NEO', link: '/help/haruki-neo/' },
-          { text: 'HarukiBOT', link: '/help/haruki/' }
+          { text: 'HarukiBot使用教程', link: '/help/haruki/haruki' },
+          { text: 'HarukiBot NEO使用教程', link: '/help/haruki/harukineo' }
         ]
       },
       { 
@@ -84,20 +85,23 @@ export default defineConfig({
             ]
           },
           {
-            text: 'HarukiBot NEO 专项',
+            text: 'HarukiBot专项',
             collapsed: false,
             items: [
-              { text: '使用指南', link: '/help/haruki-neo/' }
-            ]
-          },
-          {
-            text: 'HarukiBOT 专项',
-            collapsed: false,
-            items: [
-              { text: '使用指南', link: '/help/haruki/' }
+              { text: 'HarukiBot使用教程', link: '/help/haruki/haruki' },
+              { text: 'HarukiBot NEO使用教程', link: '/help/haruki/harukineo' },
+              { text: '账号验证教程', link: '/help/haruki/bind' },
+              {
+                text: '抓包教程',
+                collapsed: true,
+                items: [
+                  { text: '模拟器抓包教程', link: '/help/haruki/proxy/' },
+                  { text: 'Android抓包教程', link: '/help/haruki/proxy/android' },
+                  { text: 'iOS模块上传教程', link: '/help/haruki/proxy/ios-module' }
+                ]
+              }
             ]
           }
-          
         ]
       },
       {

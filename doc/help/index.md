@@ -52,8 +52,6 @@
 - **多服支持**：涉及用户数据的指令，可添加 `en`/`tw`/`kr`/`cn` 前缀来触发国际服/台服/韩服/国服专属功能（默认为日服）
 :::
 
-👉 [查看完整使用指南](./haruki/)
-
 ### 🆕 HarukiBot NEO 专项功能 <Badge type="info" text="无需@" /> <Badge type="danger" text="新" />
 
 ::: info ℹ️ 使用须知
@@ -61,7 +59,7 @@
 - **公测阶段**：Bot 可能存在 Bug，如有问题请联系 HarukiBot 分布式 Bot 主反馈
 :::
 
-👉 [查看完整使用指南](./haruki-neo/)
+👉 [查看完整使用指南](./haruki/harukineo)
 
 ## 🚀 快速开始
 
