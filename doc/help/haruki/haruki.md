@@ -1,5 +1,9 @@
 # HarukiBot 使用指南 <Badge type="info" text="经典版" />
 
+::: danger 重要声明
+- 此使用教程已过时，请访问 [HarukiBot NEO 使用教程](./harukineo.md) 
+:::
+
 ::: info ℹ️ 使用须知
 HarukiBot 指令**不需要** `@mzkbot` 前缀，直接发送即可。
 :::

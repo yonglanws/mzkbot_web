@@ -88,8 +88,8 @@ export default defineConfig({
             text: 'HarukiBot专项',
             collapsed: false,
             items: [
-              { text: 'HarukiBot使用教程', link: '/help/haruki/haruki' },
               { text: 'HarukiBot NEO使用教程', link: '/help/haruki/harukineo' },
+              { text: 'HarukiBot使用教程', link: '/help/haruki/haruki' },
               { text: '账号验证教程', link: '/help/haruki/bind' },
               {
                 text: '抓包教程',

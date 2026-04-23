@@ -12,10 +12,6 @@
 - HarukiBot NEO 具有配套功能网站 [Haruki工具箱](https://haruki.seiunx.com/)。
 :::
 
-::: warning 公测状态
-HarukiBot NEO 目前处于 <Badge type="warning" text="公测" /> 状态，可能存在各种各样的 Bug。如果你遇到了 Bug 或者有任何意见反馈，请联系 HarukiBot 分布式 Bot 主反馈，Bot 主会将问题反馈到 Haruki Dev Team。
-:::
-
 ::: danger 重要声明
 - **该 Bot 不提供私聊服务。**
 - 使用该 Bot，即意味着你同意 [使用条款](https://neo.haruki.seiunx.com/licence/) 及 [隐私条款](https://neo.haruki.seiunx.com/privacy/)。
