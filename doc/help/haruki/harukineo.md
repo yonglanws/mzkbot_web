@@ -4,13 +4,14 @@
 
 ::: info 关于 HarukiBot NEO
 一款多功能 QQ 群机器人，主要提供《世界计划 多彩舞台》相关查询服务。
+
+本部分的全部教程文档由 [HarukiBot开发者们](#about) 编写，感谢他们的付出。
 :::
 
 ### 阅读前提示 {#notice}
 
 ::: tip 快速开始
 - HarukiBot NEO 具有配套功能网站 [Haruki工具箱](https://haruki.seiunx.com/)。
-- 本部分的全部教程文档由 [HarukiBot开发者们](#about) 编写，感谢他们的付出。
 :::
 
 ::: danger 重要声明
