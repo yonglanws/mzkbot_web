@@ -10,7 +10,7 @@
 
 ::: tip 快速开始
 - HarukiBot NEO 具有配套功能网站 [Haruki工具箱](https://haruki.seiunx.com/)。
-- 本教程文档由 [HarukiBot开发者](#about) 编写，感谢他们的付出。
+- 本部分的全部教程文档由 [HarukiBot开发者们](#about) 编写，感谢他们的付出。
 :::
 
 ::: danger 重要声明
