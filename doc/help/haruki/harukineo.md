@@ -10,13 +10,13 @@
 
 ::: tip 快速开始
 - HarukiBot NEO 具有配套功能网站 [Haruki工具箱](https://haruki.seiunx.com/)。
+- 本教程文档由 [HarukiBot开发者](#about) 编写，感谢他们的付出。
 :::
 
 ::: danger 重要声明
 - **该 Bot 不提供私聊服务。**
 - 使用该 Bot，即意味着你同意 [使用条款](https://neo.haruki.seiunx.com/licence/) 及 [隐私条款](https://neo.haruki.seiunx.com/privacy/)。
 - 该使用文档或许存在遗漏或者错误内容，如果发现请联系 HarukiBot 分布式 Bot 主反馈。
-- 目前 HarukiBot NEO 仍然处于开发状态，有多种功能仍在开发中。如果没有你需要的功能，请不要着急，请耐心等待开发者开发完善。
 - 如果你在使用过程中遇到任何问题，你可以在该页面最下方的 [关于](#about) 下面联系 [开发者](#about) 进行反馈。
 :::
 
