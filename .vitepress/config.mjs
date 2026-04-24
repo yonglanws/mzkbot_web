@@ -78,7 +78,7 @@ export default defineConfig({
           },
           {
             text: '其他功能',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '流媒体解析', link: '/help/other/video' },
               { text: '入群/退群提示', link: '/help/other/group' }
@@ -89,7 +89,6 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'HarukiBot NEO使用教程', link: '/help/haruki/harukineo' },
-              { text: 'HarukiBot使用教程', link: '/help/haruki/haruki' },
               { text: '账号验证教程', link: '/help/haruki/bind' },
               {
                 text: '抓包教程',
