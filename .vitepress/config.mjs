@@ -62,7 +62,8 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '基础对话', link: '/help/basic/chat' },
-              { text: '每日签到', link: '/help/basic/signin' }
+              { text: '每日签到', link: '/help/basic/signin' },
+              { text: '视频对话', link: '/help/basic/videochat' }
             ]
           },
           {

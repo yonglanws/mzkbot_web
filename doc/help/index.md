@@ -44,16 +44,6 @@
 | [流媒体解析](./other/video)   | 直接发送链接 | 支持 B 站、抖音、小红书等平台 |
 | [入群/退群提示](./other/group) | 自动触发   | 自动欢迎和送别          |
 
-### 🎵 HarukiBot 专项功能 <Badge type="info" text="无需@" />
-
-::: info ℹ️ 使用须知
-
-- 运行以下 HarukiBot 指令时，，，不需要，，添加 `@mzkbot` 前缀，直接发送指令即可
--   多服支持  ：涉及用户数据的指令，可添加 `en`/`tw`/`kr`/`cn` 前缀来触发国际服/台服/韩服/国服专属功能（默认为日服）
-  :::
-
-👉 [查看完整使用指南](./haruki/haruki)
-
 ### 🆕 HarukiBot NEO 专项功能 <Badge type="info" text="无需@" /> <Badge type="danger" text="新" />
 
 ::: info ℹ️ 使用须知
