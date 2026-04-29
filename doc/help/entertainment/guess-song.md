@@ -1,34 +1,17 @@
-# PJSK 猜歌 <Badge type="warning" text="娱乐" />
-
-## 📖 功能简介
-
-根据音频片段猜测   Project SEKAI   中的歌曲名称，考验你的音乐知识储备！
-
-::: info 🎵 游戏规则
-
-- 系统随机播放一段歌曲音频（约10秒）
-- 玩家需要在   30秒内   发送编号回答
-- 每个玩家有   2次   作答机会
-- 答对可获得积分奖励
-  :::
+﻿# PJSK 猜歌 <Badge type="warning" text="娱乐" />
 
 ## 🎯 使用方法
 
 ### 基本指令
 
 ```bash
-@mzkbot pjsk猜歌
+@mzkbot pjsk猜歌 或 猜歌
 ```
 
 ### 帮助说明
 
 <img src="/image/gshelp.png" alt="猜歌帮助" style="max-width: 200px; border-radius: 8px;">
 
-## ⚠️ 使用限制
-
-::: warning 🔒 功能限制
-由于部分群聊使用频率过大导致 bot 经常被风控，现已限制其他群聊的娱乐功能使用，请移步至 mzkbot 的娱乐功能专群   1098198311   游玩。
-:::
 
 ## 🎮 游戏演示
 
@@ -40,7 +23,7 @@
         <span class="chat-name">用户</span>
       </div>
       <div class="chat-bubble">
-        @mzkbot pjsk猜歌
+        @mzkbot 猜歌
       </div>
     </div>
     <div class="chat-avatar user-avatar"></div>
