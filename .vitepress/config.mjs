@@ -28,9 +28,12 @@ export default defineConfig({
         link: '/help/',
         items: [
           { text: '基础对话', link: '/help/basic/chat' },
-          { text: '每日签到', link: '/help/basic/signin' },
           { text: 'PJSK猜歌', link: '/help/entertainment/guess-song' },
           { text: '网易云点歌', link: '/help/entertainment/music' },
+          { text: '每日签到', link: '/help/basic/signin' },
+          { text: '漂流瓶', link: '/help/entertainment/drift-bottle' },
+          { text: '官方B站动态订阅', link: '/help/other/bilibili-sub' },
+          { text: '舞萌DX状态查询', link: '/help/other/maimai-status' },
           { text: 'HarukiBot使用教程', link: '/help/haruki/haruki' },
           { text: 'HarukiBot NEO使用教程', link: '/help/haruki/harukineo' }
         ]
@@ -62,27 +65,29 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '基础对话', link: '/help/basic/chat' },
-              { text: '每日签到', link: '/help/basic/signin' },
-              { text: '视频对话', link: '/help/basic/videochat' }
+              { text: '视频对话&剧本生成', link: '/help/basic/videochat' }
             ]
           },
           {
             text: '娱乐互动',
             collapsed: false,
             items: [
+              { text: '每日签到', link: '/help/basic/signin' },
               { text: 'PJSK猜歌', link: '/help/entertainment/guess-song' },
               { text: 'PJSK猜卡面', link: '/help/entertainment/guess-card' },
               { text: 'PJSK猜曲绘', link: '/help/entertainment/guess-jacket' },
               { text: 'PJSK歌词猜曲', link: '/help/entertainment/guess-lyrics' },
-              { text: '网易云点歌', link: '/help/entertainment/music' }
+              { text: '网易云点歌', link: '/help/entertainment/music' },
+              { text: '漂流瓶', link: '/help/entertainment/drift-bottle' }
             ]
           },
           {
             text: '其他功能',
             collapsed: true,
             items: [
-              { text: '流媒体解析', link: '/help/other/video' },
-              { text: '入群/退群提示', link: '/help/other/group' }
+              { text: '官方B站动态订阅', link: '/help/other/bilibili-sub' },
+              { text: '舞萌DX状态查询', link: '/help/other/maimai-status' },
+              { text: '流媒体解析', link: '/help/other/video' }
             ]
           },
           {
