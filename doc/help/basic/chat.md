@@ -4,12 +4,6 @@
 
 接入 **AI 模型**，为您提供真实的情绪价值与陪伴。mzkbot 能够理解上下文，进行自然流畅的对话交流。
 
-::: info ✨ 核心特性
-- 🤖 **智能对话** — 基于 AI 模型的自然语言处理
-- 💬 **情感陪伴** — 提供情绪价值，支持闲聊和倾诉
-- 📚 **知识问答** — 回答各类问题和提供信息
-:::
-
 ## 🎯 使用方法
 
 ### 基本指令格式
@@ -47,14 +41,72 @@
   </div>
 </div>
 
-## ⚙️ 高级用法
+## ⚙️ 人格切换
 
-| 场景 | 示例指令 | 说明 |
-| :--- | :--- | :--- |
-| 日常问候 | `@mzkbot 早安` | 获取温暖的问候语 |
-| 情感倾诉 | `@mzkbot 今天心情不好...` | 获得安慰和建议 |
-| 知识问答 | `@mzkbot 什么是PJSK` | 获取相关信息 |
-| 闲聊互动 | `@mzkbot 讲个笑话` | 轻松娱乐 |
+### 基本指令格式
+
+```bash
+@mzkbot + 人格切换
+```
+
+### 使用示例
+
+<div class="chat-container">
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">09:30</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        @mzkbot 人格切换
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">09:30</span>
+      </div>
+      <div class="chat-bubble">
+        请直接发送序号选择人格：<br>
+  1. 晓山瑞希<br>
+  2. 宵崎奏<br>
+  3. 东云绘名<br>
+  4. 优等生真冬<br>
+  5. 朝比奈真冬<br>
+共 5 个人格，回复「取消」可退出。
+      </div>
+    </div>
+  </div>
+  <div class="chat-message user">
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-time">09:30</span>
+        <span class="chat-name">用户</span>
+      </div>
+      <div class="chat-bubble">
+        2
+      </div>
+    </div>
+    <div class="chat-avatar user-avatar"></div>
+  </div>
+  <div class="chat-message bot">
+    <div class="chat-avatar bot-avatar"></div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <span class="chat-name">mzkbot</span>
+        <span class="chat-time">09:30</span>
+      </div>
+      <div class="chat-bubble">
+        已切换人格为 宵崎奏
+      </div>
+    </div>
+  </div>
+</div>
 
 ## ⚠️ 注意事项
 
