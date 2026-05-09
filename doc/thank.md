@@ -50,19 +50,6 @@
     </p>
     <a href="https://github.com/Soulter/AstrBot" target="_blank" style="display: inline-block; margin-top: 12px; text-decoration: none; color: #2575fc; font-weight: 500; font-size: 0.9rem;">查看项目 →</a>
   </div>
-
-  <!-- Reference Bots -->
-  <div style="background: var(--thank-bg-card); border: 1px solid var(--thank-border); border-radius: 12px; padding: 24px; box-shadow: 0 4px 6px var(--thank-card-shadow); transition: transform 0.2s ease, box-shadow 0.2s ease;">
-    <div style="display: flex; align-items: center; margin-bottom: 12px;">
-      <span style="font-size: 24px; margin-right: 12px;">🎵</span>
-      <h3 style="margin: 0; font-size: 1.25rem; color: var(--thank-text-title);">HarukiBot</h3>
-    </div>
-    <p style="color: var(--thank-text-desc); line-height: 1.6; margin: 0; font-size: 0.95rem;">
-      优秀的《世界计划 多彩舞台》查询服务BOT
-    </p>
-    <a href="https://github.com/Team-Haruki" target="_blank" style="display: inline-block; margin-top: 12px; text-decoration: none; color: #fc25d5; font-weight: 500; font-size: 0.9rem;">查看项目 →</a>
-  </div>
-
   <div style="background: var(--thank-bg-card); border: 1px solid var(--thank-border); border-radius: 12px; padding: 24px; box-shadow: 0 4px 6px var(--thank-card-shadow); transition: transform 0.2s ease, box-shadow 0.2s ease;">
     <div style="display: flex; align-items: center; margin-bottom: 12px;">
       <span style="font-size: 24px; margin-right: 12px;">🎨</span>
