@@ -64,14 +64,92 @@
 </div>
 </div>
 
-## 🌟 社区贡献
+## 🌟 捐赠者们
 
-::: info 🤝 感谢每一位用户
-- **Bug 反馈**：帮助我们发现问题并及时修复
-- **功能建议**：让 mzkbot 变得更加完善
-- **群内活跃**：营造了良好的交流氛围
-- **赞助支持**：为项目的持续运营提供了动力
-:::
+> 感谢以下用户的慷慨支持，让 mzkbot 能够持续运营和发展！
+
+<div class="donor-grid">
+
+<div class="donor-card">
+<div class="donor-avatar">☁️</div>
+<div class="donor-name">积雨云</div>
+<div class="donor-badge">支持者</div>
+</div>
+
+</div>
+
+<style>
+.donor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.donor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 12px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.donor-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 8px 24px rgba(232, 121, 169, 0.15);
+}
+
+.donor-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6b9d, #c4457a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.donor-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-bottom: 6px;
+}
+
+.donor-badge {
+  font-size: 11px;
+  padding: 2px 10px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .donor-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .donor-card {
+    padding: 16px 8px;
+  }
+  .donor-avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .donor-name {
+    font-size: 12px;
+  }
+}
+</style>
+
+
 
 <style>
 .thank-page-container {

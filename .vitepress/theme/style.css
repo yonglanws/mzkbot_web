@@ -115,8 +115,8 @@
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
   margin: 20px 0;
 }
 
@@ -132,20 +132,6 @@
   text-decoration: none !important;
   color: var(--vp-c-text-1) !important;
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.feature-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--vp-c-brand-1), var(--vp-c-brand-next));
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .feature-card:hover {
@@ -155,12 +141,8 @@
   text-decoration: none !important;
 }
 
-.feature-card:hover::before {
-  opacity: 1;
-}
-
 .feature-icon {
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 12px;
   line-height: 1;
   transition: transform 0.3s ease;
@@ -187,7 +169,7 @@
 .feature-cmd {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 12px;
-  padding: 4px 10px;
+  padding: 5px 12px;
   background: var(--vp-c-brand-soft);
   color: var(--vp-c-brand-1);
   border-radius: 6px;
@@ -216,28 +198,40 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
-  
+
   .feature-card {
-    padding: 18px 12px;
+    padding: 20px 12px;
+    border-radius: 10px;
   }
-  
+
+  .feature-card:hover {
+    transform: translateY(-3px);
+  }
+
   .feature-icon {
     font-size: 28px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
-  
+
+  .feature-card:hover .feature-icon {
+    transform: scale(1.15);
+  }
+
   .feature-title {
-    font-size: 13px;
+    font-size: 14px;
+    margin-bottom: 6px;
   }
-  
+
   .feature-desc {
-    font-size: 11px;
-    margin-bottom: 8px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 1.4;
   }
-  
+
   .feature-cmd {
-    font-size: 10px;
-    padding: 3px 8px;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 6px;
   }
   
   .vp-doc th,

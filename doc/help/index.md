@@ -49,6 +49,15 @@
 <div class="feature-cmd">@mzkbot 签到</div>
 </a>
 
+<a href="#pjsk-表情包制作" class="feature-card">
+<div class="feature-icon">Emoji</div>
+<div class="feature-title">PJSK 表情包制作</div>
+<div class="feature-desc">根据文本生成表情包</div>
+<div class="feature-cmd">@mzkbot pjsk/pjsk表情/随机表情</div>
+</a>
+
+
+
 <a href="#pjsk-猜歌" class="feature-card">
 <div class="feature-icon">🎵</div>
 <div class="feature-title">PJSK 猜歌</div>
@@ -101,6 +110,13 @@
 
 <div class="feature-grid">
 
+<a href="#国服车站" class="feature-card">
+<div class="feature-icon">🎮</div>
+<div class="feature-title">国服车站</div>
+<div class="feature-desc">推送最近5min内的房间号</div>
+<div class="feature-cmd">ycm/车站</div>
+</a>
+
 <a href="#b站动态订阅" class="feature-card">
 <div class="feature-icon">📺</div>
 <div class="feature-title">B站动态订阅</div>
@@ -109,7 +125,7 @@
 </a>
 
 <a href="#舞萌dx状态查询" class="feature-card">
-<div class="feature-icon">🎮</div>
+<div class="feature-icon">🌐</div>
 <div class="feature-title">舞萌DX状态查询</div>
 <div class="feature-desc">查询舞萌DX服务器状态</div>
 <div class="feature-cmd">@mzkbot 舞萌状态</div>
@@ -201,6 +217,14 @@
 | @机器人 | `@mzkbot 签到` |
 | 直接发送 | `签到` |
 
+### PJSK表情包制作
+
+| 方式 | 指令 |
+| :--- | :--- |
+| 表情包制作 | `@mzkbot pjsk/pjsk表情/表情` |
+| 随机表情 | `@mzkbot 随机表情+文字` |
+
+
 ### PJSK 猜歌
 
 | 功能 | 指令 |
@@ -267,6 +291,14 @@
 - 漂流瓶内容需通过 AI 审核
 - 禁止发布违规、敏感或广告内容
 :::
+
+### 国服车站查询
+
+| 功能 | 指令 |
+| :--- | :--- |
+| 推送最近5min内的房间号 | `@mzkbot ycm/车站` |
+
+你也可以直接发送 `ycm/车站` 来获取最近5min内的房间号
 
 ### 世界计划官方&资讯站B站动态订阅
 
