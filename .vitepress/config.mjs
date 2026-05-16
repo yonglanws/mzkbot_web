@@ -74,7 +74,7 @@ export default defineConfig({
       {
         text: '📋 其他页面',
         items: [
-          { text: '关于', link: '/thank' },
+          { text: '关于&鸣谢', link: '/thank' },
           { text: '使用规范', link: '/guize' },
           { text: '开源', link: '/kaiyuan' },
           { text: '交流群', link: '/how2use' },
