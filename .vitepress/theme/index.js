@@ -3,6 +3,9 @@ import DefaultTheme from 'vitepress/theme'
 import mediumZoom from 'medium-zoom'
 import nprogress from 'nprogress'
 import { useRoute } from 'vitepress'
+import CollapseBox from '../../doc/help/haruki/bot-help/components/CollapseBox.vue'
+import ClassicCollapseBox from '../../doc/help/haruki/bot-help/components/ClassicCollapseBox.vue'
+import ChatBox from '../../doc/help/haruki/bot-help/components/ChatBox.vue'
 import Layout from './Layout.vue'
 import './style.css'
 import './style/rainbow.css'
@@ -48,6 +51,10 @@ export default {
   extends: DefaultTheme,
   Layout: Layout,
   enhanceApp({ app, router, siteData }) {
+    app.component('CollapseBox', CollapseBox)
+    app.component('ClassicCollapseBox', ClassicCollapseBox)
+    app.component('ChatBox', ChatBox)
+
     if (typeof window !== 'undefined') {
       injectChatStyle()
 

@@ -64,31 +64,6 @@
 </div>
 </div>
 
-## 🌟 捐赠者们
-
-> 感谢以下用户的支持，让 mzkbot 能够持续运营和发展！
-
-<div class="donor-grid">
-
-<div class="donor-card">
-<div class="donor-name">积雨云</div>
-<div class="donor-badge">支持者</div>
-</div>
-<div class="donor-card">
-<div class="donor-name">雨小嗣</div>
-<div class="donor-badge">支持者</div>
-</div>
-<div class="donor-card">
-<div class="donor-name">小千</div>
-<div class="donor-badge">支持者</div>
-</div>
-<div class="donor-card">
-<div class="donor-name">正義</div>
-<div class="donor-badge">支持者</div>
-</div>
-
-</div>
-
 <style>
 .donor-grid {
   display: grid;

@@ -14,7 +14,8 @@ export default defineConfig({
     'doc/help/:page': 'help/:page',
     'doc/help/haruki-neo/:page': 'help/haruki-neo/:page',
     'doc/help/haruki/:page': 'help/haruki/:page',
-    'doc/help/haruki/proxy/:page': 'help/haruki/proxy/:page'
+    'doc/help/haruki/proxy/:page': 'help/haruki/proxy/:page',
+    'doc/help/haruki/bot-help/:page': 'help/haruki/bot-help/:page'
   },
   themeConfig: {
     logo: "https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp",
@@ -27,8 +28,7 @@ export default defineConfig({
         text: '📖 使用帮助', 
         link: '/help/',
         items: [
-          { text: 'HarukiBot使用教程', link: '/help/haruki/haruki' },
-          { text: 'HarukiBot NEO使用教程', link: '/help/haruki/harukineo' }
+          { text: 'HarukiBot NEO 使用入门', link: '/help/haruki/bot-help/' }
         ]
       },
       { 
@@ -58,11 +58,27 @@ export default defineConfig({
       {
         text: '🎮 HarukiBot',
         items: [
-          { text: 'HarukiBot NEO使用教程', link: '/help/haruki/harukineo' },
-          { text: '账号验证教程', link: '/help/haruki/bind' },
+          {
+            text: 'HarukiBot NEO 帮助',
+            collapsed: false,
+            items: [
+              { text: '使用入门', link: '/help/haruki/bot-help/' },
+              { text: '如何使用工具箱', link: '/help/haruki/bot-help/toolbox_guide' },
+              { text: '个人资料与账号', link: '/help/haruki/bot-help/account' },
+              { text: '卡牌查询', link: '/help/haruki/bot-help/card' },
+              { text: '音乐与乐曲', link: '/help/haruki/bot-help/music' },
+              { text: '活动查询', link: '/help/haruki/bot-help/event' },
+              { text: '榜线与SK', link: '/help/haruki/bot-help/sk' },
+              { text: '组卡', link: '/help/haruki/bot-help/recommend' },
+              { text: '养成查询', link: '/help/haruki/bot-help/cultivation' },
+              { text: 'MySekai查询', link: '/help/haruki/bot-help/mysekai' },
+              { text: '昵称与别名', link: '/help/haruki/bot-help/alias' },
+              { text: '杂项命令', link: '/help/haruki/bot-help/misc' }
+            ]
+          },
           {
             text: '抓包教程',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '模拟器抓包教程', link: '/help/haruki/proxy/' },
               { text: 'Android抓包教程', link: '/help/haruki/proxy/android' },

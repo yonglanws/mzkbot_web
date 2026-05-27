@@ -10,11 +10,14 @@
 
 | 项目名称                                                                       | 功能说明                      | 技术栈    |
 | :------------------------------------------------------------------------- | :------------------------ | :----- |
+| [PJSK 猜歌](https://github.com/yonglanws/astrbot_plugin_pjsk_guess_song)    | Project SEKAI 猜歌游戏 | Python |
 | [PJSK 猜卡面](https://github.com/yonglanws/astrbot_plugin_pjsk_guess_card)    | Project SEKAI 角色卡片识别与猜测游戏 | Python |
 | [PJSK 猜曲绘](https://github.com/yonglanws/astrbot_plugin_pjsk_guess_jacket)  | 根据歌曲封面猜测曲目                | Python |
 | [PJSK 歌词猜曲](https://github.com/yonglanws/astrbot_plugin_pjsk_guess_lyrics) | 通过歌词片段互动猜歌                | Python |
 | [AI 智能问答](https://github.com/yonglanws/astrbot_plugin_askyou)              | 基于模式匹配的 AI 问答插件           | Python |
 | [每日签到](https://github.com/yonglanws/astrbot_plugin_signin)                 | 用户签到系统                    | Python |
+| [PJSK人格测试](https://github.com/yonglanws/astrbot_plugin_pjsk_role_test)                 | 人格测试插件                    | Python |
+
 
 ## 🌐 Web 前端
 
