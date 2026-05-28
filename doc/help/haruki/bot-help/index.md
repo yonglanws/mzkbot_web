@@ -9,6 +9,8 @@ outline: false
 
 一款多功能QQ群机器人  
 
+</div>
+
 
 >
 > 本文档将引导您使用 HarukiBot NEO
