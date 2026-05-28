@@ -2,14 +2,10 @@
 outline: false
 ---
 
-<div style="text-align: center;">
-    <img src="https://images.shiromiku.moe/images/HarukiDocsMaid1.webp" alt="logo" width="256" height="256" style="display: block; margin: 0 auto;">
 
 # HarukiBot NEO
 
 一款多功能QQ群机器人  
-
-</div>
 
 
 >
