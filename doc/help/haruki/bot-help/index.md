@@ -8,12 +8,12 @@ outline: false
 # HarukiBot NEO
 
 一款多功能QQ群机器人  
-Logo由[小沢翼](https://space.bilibili.com/3493133455198556)担当绘制
-</div>
+
 
 >
 > 本文档将引导您使用 HarukiBot NEO
->
+> 
+> 本文档由HarukiBot开发者们编写，感谢他们的付出
 
 # 阅读前提示
 
