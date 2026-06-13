@@ -52,12 +52,14 @@ export default defineConfig({
       {
         text: '📖 指令帮助',
         items: [
-          { text: '指令帮助', link: '/help/' }
+          { text: '主BOT使用教程', link: '/help/' },  
+          { text: '分布式BOT使用教程', link: '/help/distributed' },
         ]
       },
       {
         text: '🎮 HarukiBot',
         items: [
+        
           {
             text: 'HarukiBot NEO 帮助',
             collapsed: false,

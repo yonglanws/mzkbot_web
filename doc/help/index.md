@@ -6,8 +6,8 @@
 
 ::: info 📌 使用前必读
 
+- 本教程是主BOT的使用教程，即BOT的账号名称为 `mzkbot-X号机`，分布式BOT的使用教程请参考 [分布式BOT使用教程](/help/distributed)
 - 大部分指令需要在群聊中 `@mzkbot` 后输入
-- HarukiBot 专项功能 不需要 `@mzkbot` 前缀
 - 高峰期可能出现延迟，请耐心等待
 
 :::

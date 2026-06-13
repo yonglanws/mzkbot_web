@@ -10,14 +10,11 @@ hero:
     alt: 背景图
   actions:
     - theme: brand
-      text: 如何使用
+      text: 主BOT使用教程
       link: /help
     - theme: alt
-      text: 使用规范
-      link: /guize
-    - theme: alt
-      text: 交流群
-      link: /how2use
+      text: 分布式BOT使用教程
+      link: /help/distributed
 
 features:
   - title: 交流互动💬
