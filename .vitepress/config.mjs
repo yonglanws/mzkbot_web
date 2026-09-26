@@ -5,7 +5,7 @@ export default defineConfig({
   title: "mzkbot帮助文档",
   description: "mzkbot帮助文档",
   base: "/mzkbot_web/",
-  head: [["link", { rel: "icon", href: "https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp" }]],
+  head: [["link", { rel: "icon", href: "/mzkbot_web/image/mizuki3.webp" }]],
   cleanUrls: true,
   appearance: true,
   rewrites: {
@@ -14,31 +14,20 @@ export default defineConfig({
     'doc/help/:page': 'help/:page',
     'doc/help/haruki-neo/:page': 'help/haruki-neo/:page',
     'doc/help/haruki/:page': 'help/haruki/:page',
-    'doc/help/haruki/proxy/:page': 'help/haruki/proxy/:page',
     'doc/help/haruki/bot-help/:page': 'help/haruki/bot-help/:page'
   },
   themeConfig: {
-    logo: "https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp",
+    logo: "/image/mizuki3.webp",
     outlineTitle: "目录",
     outline: [2, 3],
     
     // Navigation with dropdown menus
     nav: [
-      { 
-        text: '📖 使用帮助', 
+      {
+        text: '📖 使用帮助',
         link: '/help/',
         items: [
           { text: 'HarukiBot NEO 使用入门', link: '/help/haruki/bot-help/' }
-        ]
-      },
-      { 
-        text: '📋 其他页面',
-        items: [
-          { text: '关于', link: '/thank' },
-          { text: '使用规范', link: '/guize' },
-          { text: '开源', link: '/kaiyuan' },
-          { text: '交流群', link: '/how2use' },
-          { text: '赞助', link: '/money' }
         ]
       }
     ],
@@ -50,16 +39,20 @@ export default defineConfig({
     // Unified sidebar - All navigation in one place for all pages
     sidebar: [
       {
-        text: '📖 指令帮助',
+        text: '📖 mzkbot',
         items: [
-          { text: '主BOT使用教程', link: '/help/' },  
-          { text: '分布式BOT使用教程', link: '/help/distributed' },
+          { text: '使用教程', link: '/help/' },
+          { text: '关于&鸣谢', link: '/help/thank' },
+          { text: '使用规范', link: '/help/guize' },
+          { text: '开源', link: '/help/kaiyuan' },
+          { text: '交流群', link: '/help/how2use' },
+          { text: '赞助', link: '/help/money' }
         ]
       },
       {
         text: '🎮 HarukiBot',
         items: [
-        
+
           {
             text: 'HarukiBot NEO 帮助',
             collapsed: false,
@@ -77,26 +70,7 @@ export default defineConfig({
               { text: '昵称与别名', link: '/help/haruki/bot-help/alias' },
               { text: '杂项命令', link: '/help/haruki/bot-help/misc' }
             ]
-          },
-          {
-            text: '抓包教程',
-            collapsed: true,
-            items: [
-              { text: '模拟器抓包教程', link: '/help/haruki/proxy/' },
-              { text: 'Android抓包教程', link: '/help/haruki/proxy/android' },
-              { text: 'iOS模块上传教程', link: '/help/haruki/proxy/ios-module' }
-            ]
           }
-        ]
-      },
-      {
-        text: '📋 其他页面',
-        items: [
-          { text: '关于&鸣谢', link: '/thank' },
-          { text: '使用规范', link: '/guize' },
-          { text: '开源', link: '/kaiyuan' },
-          { text: '交流群', link: '/how2use' },
-          { text: '赞助', link: '/money' }
         ]
       }
     ],

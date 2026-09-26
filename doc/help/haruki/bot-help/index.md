@@ -7,6 +7,7 @@ outline: false
 
 一款多功能QQ群机器人  
 
+该教程可能过时，请跳转至[HarukiBot官方教程网站](https://neo.haruki.seiunx.com/)查看
 
 >
 > 本文档将引导您使用 HarukiBot NEO

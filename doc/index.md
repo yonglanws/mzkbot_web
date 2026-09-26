@@ -6,15 +6,24 @@ hero:
   name: "mzkbot"
   text: "多功能的世界计划\nQQ BOT"
   image:
-    src: https://bot-assets.xszq.xyz/meme/pjsk/Mizuki/Mizuki_03.webp
+    src: /image/mizuki3.webp
     alt: 背景图
   actions:
     - theme: brand
-      text: 主BOT使用教程
+      text: 使用教程
       link: /help
-    - theme: alt
-      text: 分布式BOT使用教程
-      link: /help/distributed
+    - theme: brand
+      text: 使用规范
+      link: /help/guize
+    - theme: brand
+      text: 关于与鸣谢
+      link: /help/thank
+    - theme: brand
+      text: 交流群
+      link: /help/how2use
+    - theme: brand
+      text: 开源
+      link: /help/kaiyuan
 
 features:
   - title: 交流互动💬

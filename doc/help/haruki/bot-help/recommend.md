@@ -55,10 +55,6 @@ const mysekaiDeckDemo = [
 本部分功能需要抓包上传 suite 后才能使用，如果使用中遇到问题请先用 `/抓包数据` 检查自己的 suite 上传是否成功。
 
 Android 用户建议使用 [Haruki工具箱-上传suite数据](https://haruki.seiunx.com/upload_suite) 的 `继承码上传`
-
-台服/韩服 Android 用户教程参考 [Haruki工具箱-HarukiProxy使用教程](/help/haruki/proxy/)
-
-iOS / iPadOS 用户建议使用代理工具 MitM 模块更新，教程参考 [Haruki工具箱-iOS模块上传数据教程](/help/haruki/proxy/ios-module)
 :::
 
 ## 组卡指令
