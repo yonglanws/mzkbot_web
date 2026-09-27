@@ -6,6 +6,19 @@
 在使用或修改代码时，请务必保留原作者的版权信息及声明。
 :::
 
+## 🌐 前端
+
+| 项目名称                                                     | 功能说明          | 技术栈              |
+| :------------------------------------------------------- | :------------ | :--------------- |
+| [mzkbot 官方网站](https://github.com/yonglanws/mzkbot_web) | Bot 配套的前端展示页面 | VitePress + Vue3 |
+
+## 🤖 后端
+
+| 项目名称                                                     | 功能说明          | 技术栈              |
+| :------------------------------------------------------- | :------------ | :--------------- |
+| [MySekaiStoryteller-API](https://github.com/yonglanws/MySekaiStoryteller-API) | Project SEKAI 风格无头 Live2D 剧情视频渲染API框架 | TypeScript + Node.js |
+
+
 ## 🧩 插件
 
 | 项目名称                                                                       | 功能说明                      | 技术栈    |
@@ -22,19 +35,7 @@
 | [防重复响应](https://github.com/yonglanws/astrbot_plugin_block_duplicate_messages) | 多 Bot 同群时防止重复响应同一指令，避免刷屏 | Python |
 | [表情图库](https://github.com/yonglanws/astrbot_plugin_gallery) | 群聊表情图库分享插件（移植自 Lunabot） | Python |
 | [自动改群名](https://github.com/yonglanws/astrbot_plugin_change_group_name) | 识别消息中的五位数，自动将其作为白名单群聊的群名 ID 前缀 | Python |
-
-
-## 🌐 前端
-
-| 项目名称                                                     | 功能说明          | 技术栈              |
-| :------------------------------------------------------- | :------------ | :--------------- |
-| [mzkbot 官方网站](https://github.com/yonglanws/mzkbot_web) | Bot 配套的前端展示页面 | VitePress + Vue3 |
-
-## 🤖 后端
-
-| 项目名称                                                     | 功能说明          | 技术栈              |
-| :------------------------------------------------------- | :------------ | :--------------- |
-| [MySekaiStoryteller-API](https://github.com/yonglanws/MySekaiStoryteller-API) | Project SEKAI 风格无头 Live2D 剧情视频渲染API框架 | TypeScript + Node.js |
+| [超长回复重试](https://github.com/yonglanws/astrbot_plugin_error_restart_chat) | 限制 LLM 回复长度，超限时自动按原配置重新生成，避免异常回复污染对话记录 | Python |
 
 ## 快速开始
 
