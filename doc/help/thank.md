@@ -107,9 +107,9 @@
 </div>
 </div>
 
-  本项目同样感谢以下人物的支持：
+  本项目同样受到了以下人的直接或间接帮助，在此感谢：
 
-  紫葱，奇洛特斯，En_dorphin，氕氙，Futureppo，C₂₂H₂₅NO₆，Railgun19457，Zhalslar，雨小嗣，Amia~♡，芷万，尽欢，千岚之夏，正義，以及mzkbot的所有使用者和贡献者
+  紫葱，奇洛特斯，芷万，En_dorphin，氕氙，Futureppo，C₂₂H₂₅NO₆，Railgun19457，Zhalslar，光晨，Rinne，雨小嗣，Amia~♡，尽欢，千岚之夏，正義，以及mzkbot的所有使用者和贡献者
 
   如果你贡献了但未出现在此名单里，请联系作者
 
